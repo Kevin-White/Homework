@@ -1,0 +1,16 @@
+MEC poses many challenges in terms of deployment and
+resource management [9], [10]. By incorporation of storage
+and computation resources in networks, it is of importance
+yet very challenging to utilize various forms of resources
+in an efficient way to meet different usersâ€™ needs. For the
+time-varying requests from end devices, it is found that the
+requests may exhibit certain similarity among different users
+over time. The same popular contents may be requested at similar locations in different time instants. Therefore, as presented
+in [11], and [12], proactively caching reusable contents, such
+as video streams and high-resolution images during off-peak
+periods and reusing cached content in peak hours, can reduce
+traffic loads in backhaul and service latency of end users so
+that the QoE [13] can be improved [11], [14]. For computation
+requests, some computation applications and data can also be
+stored such that the response can be made promptly for tasks
+from users [15].

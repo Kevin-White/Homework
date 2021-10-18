@@ -1,0 +1,4 @@
+Line 1 says unix
+Line 2 says linux
+Line 3 thinks linux is cool
+Line 4 thinks unix is cool

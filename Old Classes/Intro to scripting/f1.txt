@@ -1,0 +1,15 @@
+With emergence of Internet of Things (IoT), wireless traffic has grown dramatically, posing severe strain on core
+network and backhaul bandwidth. Proactive caching in mobile
+edge computing systems can not only efficiently mitigate the traffic congestion and relieve burden of backhaul but also can reduce
+the service latency for end devices. However, proactive caching
+heavily relies on the prediction accuracy of content popularity,
+which is typically unknown and change over time. In this paper,
+we propose an online proactive caching scheme based on bidirectional deep recurrent neural network (BRNN) model to predict
+time-series content requests and update edge caching accordingly. Specifically, on the first layer, a 1-D convolution neural
+network (CNN) is devised to reduce the computational costs.
+Then, BRNN is employed to predict time-varying requests from
+users. Afterward, a fully connected neural network (FCNN) is
+harnessed to learn and sample predicts from the BRNN. Finally,
+we conduct experiments based on real datasets, which demonstrate that the proposed approach can achieve considerably high
+prediction accuracy and significantly improve content hit rate of
+end devices.

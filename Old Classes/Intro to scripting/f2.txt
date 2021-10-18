@@ -1,0 +1,11 @@
+Moreover, the emergence of various services and applications, such as augmented reality, virtual reality, and intelligent
+transportation, require efficient and real-time data collection
+and data processing. To address these challenges, storage,
+and computation resources expects to be provisioned to end
+devices in proximity, giving birth to mobile edge computing (MEC) [5]â€“[8]. Consequently, with the aid of MEC, the
+demands from end devices can be served locally and quickly,
+rather than being served by the remote cloud through backhaul. In other words, through decentralizing cloud service and
+spreading the burden of cloud servers in core networks to base
+stations (BSs), the requests for both contents and computations
+can be satisfied locally, which significantly mitigates the pressure on core network and reduces the service latency for end
+devices.

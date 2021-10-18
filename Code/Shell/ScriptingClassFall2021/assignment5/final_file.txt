@@ -1,0 +1,42 @@
+With emergence of Internet of Things (IoT), wireless traffic has grown dramatically, posing severe strain on core
+network and backhaul bandwidth. Proactive caching in mobile
+edge computing systems can not only efficiently mitigate the traffic congestion and relieve burden of backhaul but also can reduce
+the service latency for end devices. However, proactive caching
+heavily relies on the prediction accuracy of content popularity,
+which is typically unknown and change over time. In this paper,
+we propose an online proactive caching scheme based on bidirectional deep recurrent neural network (BRNN) model to predict
+time-series content requests and update edge caching accordingly. Specifically, on the first layer, a 1-D convolution neural
+network (CNN) is devised to reduce the computational costs.
+Then, BRNN is employed to predict time-varying requests from
+users. Afterward, a fully connected neural network (FCNN) is
+harnessed to learn and sample predicts from the BRNN. Finally,
+we conduct experiments based on real datasets, which demonstrate that the proposed approach can achieve considerably high
+prediction accuracy and significantly improve content hit rate of
+end devices.
+Moreover, the emergence of various services and applications, such as augmented reality, virtual reality, and intelligent
+transportation, require efficient and real-time data collection
+and data processing. To address these challenges, storage,
+and computation resources expects to be provisioned to end
+devices in proximity, giving birth to mobile edge computing (MEC) [5]â€“[8]. Consequently, with the aid of MEC, the
+demands from end devices can be served locally and quickly,
+rather than being served by the remote cloud through backhaul. In other words, through decentralizing cloud service and
+spreading the burden of cloud servers in core networks to base
+stations (BSs), the requests for both contents and computations
+can be satisfied locally, which significantly mitigates the pressure on core network and reduces the service latency for end
+devices.
+MEC poses many challenges in terms of deployment and
+resource management [9], [10]. By incorporation of storage
+and computation resources in networks, it is of importance
+yet very challenging to utilize various forms of resources
+in an efficient way to meet different usersâ€™ needs. For the
+time-varying requests from end devices, it is found that the
+requests may exhibit certain similarity among different users
+over time. The same popular contents may be requested at similar locations in different time instants. Therefore, as presented
+in [11], and [12], proactively caching reusable contents, such
+as video streams and high-resolution images during off-peak
+periods and reusing cached content in peak hours, can reduce
+traffic loads in backhaul and service latency of end users so
+that the QoE [13] can be improved [11], [14]. For computation
+requests, some computation applications and data can also be
+stored such that the response can be made promptly for tasks
+from users [15].

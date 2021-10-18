@@ -1,0 +1,4 @@
+ls.txt
+q4.sh
+q5.sh
+text.txt

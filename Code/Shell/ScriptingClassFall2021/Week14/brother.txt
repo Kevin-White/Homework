@@ -1,0 +1,4 @@
+Kevin adult account 45000
+Erik teen account 25000
+Andrew teen account 12000
+Ryan child account 50000
