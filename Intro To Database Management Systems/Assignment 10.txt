@@ -1,0 +1,40 @@
+BEGIN TRANSACTION;
+
+CREATE TABLE Employee(Emp_ID integer PRIMARY KEY, Fname text, Lname text);
+
+INSERT INTO Employee VALUES(35,'John', 'Doe');
+INSERT INTO Employee VALUES(47, 'Mike', 'Suliven');
+INSERT INTO Employee VALUES(88, 'Katelynn', 'Blando');
+INSERT INTO Employee VALUES(99,'Edward', 'Nygma');
+INSERT INTO Employee VALUES(11, 'Grunkle', 'Stan');
+
+CREATE TABLE Employee_Kids(Emp_ID integer PRIMARY KEY, KidName text, DOB date, MarrageStatus text);
+
+INSERT INTO Employee_Kids VALUES(35,'James','2015-10-13', 'Married');
+INSERT INTO Employee_Kids VALUES(47,'Boo','2012-02-22', 'Married');
+INSERT INTO Employee_Kids VALUES(88,'Josh','2014-12-13', 'Single');
+INSERT INTO Employee_Kids VALUES(99,'Ben','2010-12-11', 'Married');
+INSERT INTO Employee_Kids VALUES(11,'Mable','2008-06-24', 'Married');
+COMMIT;
+
+SELECT * FROM Employee_Kids;
+
+ALTER TABLE Employee_Kids
+ADD Gender char;
+
+UPDATE Employee_Kids
+SET Gender = CASE KidName
+WHEN 'James' THEN 'M'
+WHEN 'Boo' THEN 'F'
+WHEN 'Josh' THEN 'M'
+WHEN 'Ben' THEN 'M'
+WHEN 'Mable' THEN 'F'
+END
+WHERE KidName IN('James','Boo','Josh','Ben','Mable');
+
+SELECT * FROM Employee_Kids;
+
+ALTER TABLE Employee_Kids
+    DROP COLUMN DOB;
+
+SELECT * FROM Employee_Kids;

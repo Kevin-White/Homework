@@ -1,0 +1,1 @@
+gcc proj2b.c -o proj2b.exe -lpthread

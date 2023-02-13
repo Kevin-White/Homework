@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        Tik-Tak-Toe
+    </title>
+    <link type="text/css" rel="stylesheet" href="styles/style.css"/>
+<style>
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding-top: 50px;
+  margin-left: 15%;
+  width: 500px;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+.box {
+    width: 75px;
+}
+img{
+    border: 0px;
+}
+</style>
+
+</head>
+<body>
+<div class="menu">
+    <a href="kevin_white_bio_start.html">Biography</a>
+    <a href="kevin_white_courses.html">Courses</a>
+    <a href="kevin_white_hobbies.html">Hobbies</a>
+    <a href="kevin_white_jobs.html">Jobs</a>
+    <a href="Future_Value_Calculation.html">FV Calculator</a>
+    <a href="Ordering.html">Ordering</a>
+    <a class="active" href="extra_credit.html">Tik-Tak-Toe</a>
+</div>
+
+<h1>Tik-Tak-Toe</h1>
+
+
+<div class="grid-container">
+  <div class="grid-item"><img src="images/Clear.png" id="1" class="box"></div>
+  <div class="grid-item"><img src="images/Clear.png" id="2" class="box"></div>
+  <div class="grid-item"><img src="images/Clear.png" id="3" class="box"></div>  
+  <div class="grid-item"><img src="images/Clear.png" id="4" class="box"></div>
+  <div class="grid-item"><img src="images/Clear.png" id="5" class="box"></div>
+  <div class="grid-item"><img src="images/Clear.png" id="6" class="box"></div>  
+  <div class="grid-item"><img src="images/Clear.png" id="7" class="box"></div>
+  <div class="grid-item"><img src="images/Clear.png" id="8" class="box"></div>
+  <div class="grid-item"><img src="images/Clear.png" id="9" class="box"></div>  
+</div>
+
+<p id="Winner" style="padding-left: 15%;"></p>
+
+<script src="js/ExtraCredit.js"></script>
+</body>
+</html>
+
