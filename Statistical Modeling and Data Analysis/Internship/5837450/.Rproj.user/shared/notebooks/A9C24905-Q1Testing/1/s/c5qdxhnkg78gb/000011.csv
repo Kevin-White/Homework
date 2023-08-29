@@ -1,0 +1,4 @@
+"0",""
+"0","# Add custom tick marks and labels to the x-axis"
+"0","axis(side = 1, at = 2020:2023, labels = 2020:2023)"
+"0",""

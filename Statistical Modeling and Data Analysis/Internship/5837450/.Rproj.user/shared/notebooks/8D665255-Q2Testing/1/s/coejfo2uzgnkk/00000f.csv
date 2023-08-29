@@ -1,0 +1,8 @@
+"0","# Set the scipen option to a large positive value to avoid scientific notation"
+"0","options(scipen = 999)"
+"0",""
+"0","# Calculate the maximum y value in your data"
+"0","max_y <- max(unlist(month_matrices_by_age))"
+"0",""
+"0","# Create an empty plot with modified ylim"
+"0","plot(NA, xlim = range(dates), ylim = c(0, max_y * 4), xlab = ""Year-Month"", ylab = ""Total COVID-19 Deaths"", xaxt = ""n"")"

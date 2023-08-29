@@ -1,0 +1,3 @@
+"0",""
+"0","# Add a legend to the plot"
+"0","legend(""topleft"", legend = names(month_matrices_by_age), col = seq_along(month_matrices_by_age), lty = 1, cex = 0.65)"

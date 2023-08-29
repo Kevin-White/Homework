@@ -1,0 +1,8 @@
+"0","# Calculate the total number of deaths for each year"
+"0","total_deathsYears <- rowSums(myMatrix)"
+"0",""
+"0","# Convert the row names of myMatrix (which represent the years) to a numeric vector"
+"0","years <- as.numeric(rownames(myMatrix))"
+"0",""
+"0","# Create a line plot of the total number of deaths over time"
+"0","plot(years, total_deathsYears, type = ""l"", xlab = ""Year"", ylab = ""Total COVID-19 Deaths"", xlim = c(2020, 2023), xaxt = ""n"")"

@@ -1,0 +1,93 @@
+Year,Condition,COVID-19 Deaths
+2020,Influenza and pneumonia,168023
+2021,Influenza and pneumonia,246574
+2022,Influenza and pneumonia,99641
+2023,Influenza and pneumonia,8849
+2020,Chronic lower respiratory diseases,34980
+2021,Chronic lower respiratory diseases,38040
+2022,Chronic lower respiratory diseases,29133
+2023,Chronic lower respiratory diseases,3823
+2020,Adult respiratory distress syndrome,41717
+2021,Adult respiratory distress syndrome,49427
+2022,Adult respiratory distress syndrome,13871
+2023,Adult respiratory distress syndrome,827
+2020,Respiratory failure,138355
+2021,Respiratory failure,194736
+2022,Respiratory failure,86585
+2023,Respiratory failure,8701
+2020,Respiratory arrest,8152
+2021,Respiratory arrest,9237
+2022,Respiratory arrest,4995
+2023,Respiratory arrest,517
+2020,Other diseases of the respiratory system,14952
+2021,Other diseases of the respiratory system,24970
+2022,Other diseases of the respiratory system,17978
+2023,Other diseases of the respiratory system,2411
+2020,Hypertensive diseases,79227
+2021,Hypertensive diseases,77495
+2022,Hypertensive diseases,46135
+2023,Hypertensive diseases,5317
+2020,Ischemic heart disease,43237
+2021,Ischemic heart disease,45279
+2022,Ischemic heart disease,31946
+2023,Ischemic heart disease,3905
+2020,Cardiac arrest,43865
+2021,Cardiac arrest,56315
+2022,Cardiac arrest,29462
+2023,Cardiac arrest,3041
+2020,Cardiac arrhythmia,27683
+2021,Cardiac arrhythmia,34806
+2022,Cardiac arrhythmia,24632
+2023,Cardiac arrhythmia,3295
+2020,Heart failure,29282
+2021,Heart failure,32715
+2022,Heart failure,27790
+2023,Heart failure,4137
+2020,Cerebrovascular diseases,19372
+2021,Cerebrovascular diseases,20728
+2022,Cerebrovascular diseases,16913
+2023,Cerebrovascular diseases,2300
+2020,Other diseases of the circulatory system,23166
+2021,Other diseases of the circulatory system,36156
+2022,Other diseases of the circulatory system,25576
+2023,Other diseases of the circulatory system,3180
+2020,Sepsis,35762
+2021,Sepsis,50146
+2022,Sepsis,27041
+2023,Sepsis,3131
+2020,Malignant neoplasms,17406
+2021,Malignant neoplasms,23339
+2022,Malignant neoplasms,24373
+2023,Malignant neoplasms,3366
+2020,Diabetes,62611
+2021,Diabetes,67157
+2022,Diabetes,32592
+2023,Diabetes,3262
+2020,Obesity,15092
+2021,Obesity,27950
+2022,Obesity,9271
+2023,Obesity,470
+2020,Alzheimer disease,15503
+2021,Alzheimer disease,9330
+2022,Alzheimer disease,8170
+2023,Alzheimer disease,1220
+2020,Vascular and unspecified dementia,42699
+2021,Vascular and unspecified dementia,24211
+2022,Vascular and unspecified dementia,20285
+2023,Vascular and unspecified dementia,3046
+2020,Renal failure,35624
+2021,Renal failure,55561
+2022,Renal failure,32237
+2023,Renal failure,3397
+2020,"Intentional and unintentional injury, poisoning, and other adverse events",6676
+2021,"Intentional and unintentional injury, poisoning, and other adverse events",12057
+2022,"Intentional and unintentional injury, poisoning, and other adverse events",10178
+2023,"Intentional and unintentional injury, poisoning, and other adverse events",876
+2020,All other conditions and causes (residual),142565
+2021,All other conditions and causes (residual),190856
+2022,All other conditions and causes (residual),116293
+2023,All other conditions and causes (residual),14323
+2020,COVID-19,385293
+2021,COVID-19,463274
+2022,COVID-19,245432
+2023,COVID-19,27066

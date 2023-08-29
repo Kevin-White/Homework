@@ -1,0 +1,921 @@
+Year,Condition,Age Group,COVID-19 Deaths
+2020,Influenza and pneumonia,0-24,249
+2021,Influenza and pneumonia,0-24,893
+2022,Influenza and pneumonia,0-24,362
+2023,Influenza and pneumonia,0-24,22
+2020,Influenza and pneumonia,25-34,1112
+2021,Influenza and pneumonia,25-34,3708
+2022,Influenza and pneumonia,25-34,888
+2023,Influenza and pneumonia,25-34,37
+2020,Influenza and pneumonia,35-44,3006
+2021,Influenza and pneumonia,35-44,9714
+2022,Influenza and pneumonia,35-44,2158
+2023,Influenza and pneumonia,35-44,91
+2020,Influenza and pneumonia,45-54,8867
+2021,Influenza and pneumonia,45-54,22614
+2022,Influenza and pneumonia,45-54,5505
+2023,Influenza and pneumonia,45-54,201
+2020,Influenza and pneumonia,55-64,22055
+2021,Influenza and pneumonia,55-64,45411
+2022,Influenza and pneumonia,55-64,13838
+2023,Influenza and pneumonia,55-64,688
+2020,Influenza and pneumonia,65-74,39212
+2021,Influenza and pneumonia,65-74,62888
+2022,Influenza and pneumonia,65-74,23661
+2023,Influenza and pneumonia,65-74,1713
+2020,Influenza and pneumonia,75-84,47411
+2021,Influenza and pneumonia,75-84,58535
+2022,Influenza and pneumonia,75-84,27295
+2023,Influenza and pneumonia,75-84,2723
+2020,Influenza and pneumonia,85+,46105
+2021,Influenza and pneumonia,85+,42806
+2022,Influenza and pneumonia,85+,25933
+2023,Influenza and pneumonia,85+,3374
+2020,Influenza and pneumonia,Not stated,6
+2021,Influenza and pneumonia,Not stated,5
+2022,Influenza and pneumonia,Not stated,1
+2023,Influenza and pneumonia,Not stated,0
+2020,Influenza and pneumonia,All Ages,168023
+2021,Influenza and pneumonia,All Ages,246574
+2022,Influenza and pneumonia,All Ages,99641
+2023,Influenza and pneumonia,All Ages,8849
+2020,Chronic lower respiratory diseases,0-24,43
+2021,Chronic lower respiratory diseases,0-24,89
+2022,Chronic lower respiratory diseases,0-24,59
+2023,Chronic lower respiratory diseases,0-24,5
+2020,Chronic lower respiratory diseases,25-34,119
+2021,Chronic lower respiratory diseases,25-34,231
+2022,Chronic lower respiratory diseases,25-34,101
+2023,Chronic lower respiratory diseases,25-34,3
+2020,Chronic lower respiratory diseases,35-44,272
+2021,Chronic lower respiratory diseases,35-44,561
+2022,Chronic lower respiratory diseases,35-44,240
+2023,Chronic lower respiratory diseases,35-44,19
+2020,Chronic lower respiratory diseases,45-54,837
+2021,Chronic lower respiratory diseases,45-54,1567
+2022,Chronic lower respiratory diseases,45-54,765
+2023,Chronic lower respiratory diseases,45-54,57
+2020,Chronic lower respiratory diseases,55-64,3387
+2021,Chronic lower respiratory diseases,55-64,5409
+2022,Chronic lower respiratory diseases,55-64,3343
+2023,Chronic lower respiratory diseases,55-64,342
+2020,Chronic lower respiratory diseases,65-74,8416
+2021,Chronic lower respiratory diseases,65-74,10287
+2022,Chronic lower respiratory diseases,65-74,7515
+2023,Chronic lower respiratory diseases,65-74,884
+2020,Chronic lower respiratory diseases,75-84,11575
+2021,Chronic lower respiratory diseases,75-84,11953
+2022,Chronic lower respiratory diseases,75-84,9790
+2023,Chronic lower respiratory diseases,75-84,1404
+2020,Chronic lower respiratory diseases,85+,10330
+2021,Chronic lower respiratory diseases,85+,7943
+2022,Chronic lower respiratory diseases,85+,7320
+2023,Chronic lower respiratory diseases,85+,1109
+2020,Chronic lower respiratory diseases,Not stated,1
+2021,Chronic lower respiratory diseases,Not stated,0
+2022,Chronic lower respiratory diseases,Not stated,0
+2023,Chronic lower respiratory diseases,Not stated,0
+2020,Chronic lower respiratory diseases,All Ages,34980
+2021,Chronic lower respiratory diseases,All Ages,38040
+2022,Chronic lower respiratory diseases,All Ages,29133
+2023,Chronic lower respiratory diseases,All Ages,3823
+2020,Adult respiratory distress syndrome,0-24,112
+2021,Adult respiratory distress syndrome,0-24,274
+2022,Adult respiratory distress syndrome,0-24,80
+2023,Adult respiratory distress syndrome,0-24,9
+2020,Adult respiratory distress syndrome,25-34,402
+2021,Adult respiratory distress syndrome,25-34,1163
+2022,Adult respiratory distress syndrome,25-34,224
+2023,Adult respiratory distress syndrome,25-34,8
+2020,Adult respiratory distress syndrome,35-44,1130
+2021,Adult respiratory distress syndrome,35-44,2996
+2022,Adult respiratory distress syndrome,35-44,561
+2023,Adult respiratory distress syndrome,35-44,19
+2020,Adult respiratory distress syndrome,45-54,3330
+2021,Adult respiratory distress syndrome,45-54,6680
+2022,Adult respiratory distress syndrome,45-54,1389
+2023,Adult respiratory distress syndrome,45-54,32
+2020,Adult respiratory distress syndrome,55-64,7484
+2021,Adult respiratory distress syndrome,55-64,12143
+2022,Adult respiratory distress syndrome,55-64,3046
+2023,Adult respiratory distress syndrome,55-64,142
+2020,Adult respiratory distress syndrome,65-74,11538
+2021,Adult respiratory distress syndrome,65-74,14057
+2022,Adult respiratory distress syndrome,65-74,4091
+2023,Adult respiratory distress syndrome,65-74,213
+2020,Adult respiratory distress syndrome,75-84,10481
+2021,Adult respiratory distress syndrome,75-84,8799
+2022,Adult respiratory distress syndrome,75-84,3022
+2023,Adult respiratory distress syndrome,75-84,277
+2020,Adult respiratory distress syndrome,85+,7239
+2021,Adult respiratory distress syndrome,85+,3315
+2022,Adult respiratory distress syndrome,85+,1458
+2023,Adult respiratory distress syndrome,85+,127
+2020,Adult respiratory distress syndrome,Not stated,1
+2021,Adult respiratory distress syndrome,Not stated,0
+2022,Adult respiratory distress syndrome,Not stated,0
+2023,Adult respiratory distress syndrome,Not stated,0
+2020,Adult respiratory distress syndrome,All Ages,41717
+2021,Adult respiratory distress syndrome,All Ages,49427
+2022,Adult respiratory distress syndrome,All Ages,13871
+2023,Adult respiratory distress syndrome,All Ages,827
+2020,Respiratory failure,0-24,188
+2021,Respiratory failure,0-24,601
+2022,Respiratory failure,0-24,215
+2023,Respiratory failure,0-24,15
+2020,Respiratory failure,25-34,791
+2021,Respiratory failure,25-34,2524
+2022,Respiratory failure,25-34,664
+2023,Respiratory failure,25-34,29
+2020,Respiratory failure,35-44,2174
+2021,Respiratory failure,35-44,6930
+2022,Respiratory failure,35-44,1627
+2023,Respiratory failure,35-44,78
+2020,Respiratory failure,45-54,6763
+2021,Respiratory failure,45-54,16663
+2022,Respiratory failure,45-54,4434
+2023,Respiratory failure,45-54,192
+2020,Respiratory failure,55-64,17386
+2021,Respiratory failure,55-64,35425
+2022,Respiratory failure,55-64,11862
+2023,Respiratory failure,55-64,727
+2020,Respiratory failure,65-74,32584
+2021,Respiratory failure,65-74,51018
+2022,Respiratory failure,65-74,21241
+2023,Respiratory failure,65-74,1746
+2020,Respiratory failure,75-84,40445
+2021,Respiratory failure,75-84,48173
+2022,Respiratory failure,75-84,24834
+2023,Respiratory failure,75-84,2830
+2020,Respiratory failure,85+,38021
+2021,Respiratory failure,85+,33400
+2022,Respiratory failure,85+,21707
+2023,Respiratory failure,85+,3084
+2020,Respiratory failure,Not stated,3
+2021,Respiratory failure,Not stated,2
+2022,Respiratory failure,Not stated,1
+2023,Respiratory failure,Not stated,0
+2020,Respiratory failure,All Ages,138355
+2021,Respiratory failure,All Ages,194736
+2022,Respiratory failure,All Ages,86585
+2023,Respiratory failure,All Ages,8701
+2020,Respiratory arrest,0-24,15
+2021,Respiratory arrest,0-24,40
+2022,Respiratory arrest,0-24,23
+2023,Respiratory arrest,0-24,1
+2020,Respiratory arrest,25-34,50
+2021,Respiratory arrest,25-34,121
+2022,Respiratory arrest,25-34,57
+2023,Respiratory arrest,25-34,1
+2020,Respiratory arrest,35-44,130
+2021,Respiratory arrest,35-44,308
+2022,Respiratory arrest,35-44,94
+2023,Respiratory arrest,35-44,5
+2020,Respiratory arrest,45-54,343
+2021,Respiratory arrest,45-54,702
+2022,Respiratory arrest,45-54,218
+2023,Respiratory arrest,45-54,11
+2020,Respiratory arrest,55-64,885
+2021,Respiratory arrest,55-64,1472
+2022,Respiratory arrest,55-64,584
+2023,Respiratory arrest,55-64,34
+2020,Respiratory arrest,65-74,1616
+2021,Respiratory arrest,65-74,2079
+2022,Respiratory arrest,65-74,1054
+2023,Respiratory arrest,65-74,104
+2020,Respiratory arrest,75-84,2250
+2021,Respiratory arrest,75-84,2283
+2022,Respiratory arrest,75-84,1369
+2023,Respiratory arrest,75-84,144
+2020,Respiratory arrest,85+,2863
+2021,Respiratory arrest,85+,2232
+2022,Respiratory arrest,85+,1596
+2023,Respiratory arrest,85+,217
+2020,Respiratory arrest,Not stated,0
+2021,Respiratory arrest,Not stated,0
+2022,Respiratory arrest,Not stated,0
+2023,Respiratory arrest,Not stated,0
+2020,Respiratory arrest,All Ages,8152
+2021,Respiratory arrest,All Ages,9237
+2022,Respiratory arrest,All Ages,4995
+2023,Respiratory arrest,All Ages,517
+2020,Other diseases of the respiratory system,0-24,37
+2021,Other diseases of the respiratory system,0-24,180
+2022,Other diseases of the respiratory system,0-24,150
+2023,Other diseases of the respiratory system,0-24,13
+2020,Other diseases of the respiratory system,25-34,125
+2021,Other diseases of the respiratory system,25-34,470
+2022,Other diseases of the respiratory system,25-34,170
+2023,Other diseases of the respiratory system,25-34,15
+2020,Other diseases of the respiratory system,35-44,307
+2021,Other diseases of the respiratory system,35-44,1111
+2022,Other diseases of the respiratory system,35-44,396
+2023,Other diseases of the respiratory system,35-44,22
+2020,Other diseases of the respiratory system,45-54,777
+2021,Other diseases of the respiratory system,45-54,2399
+2022,Other diseases of the respiratory system,45-54,1040
+2023,Other diseases of the respiratory system,45-54,69
+2020,Other diseases of the respiratory system,55-64,1964
+2021,Other diseases of the respiratory system,55-64,4743
+2022,Other diseases of the respiratory system,55-64,2456
+2023,Other diseases of the respiratory system,55-64,207
+2020,Other diseases of the respiratory system,65-74,3472
+2021,Other diseases of the respiratory system,65-74,6298
+2022,Other diseases of the respiratory system,65-74,4177
+2023,Other diseases of the respiratory system,65-74,474
+2020,Other diseases of the respiratory system,75-84,4149
+2021,Other diseases of the respiratory system,75-84,5827
+2022,Other diseases of the respiratory system,75-84,5006
+2023,Other diseases of the respiratory system,75-84,768
+2020,Other diseases of the respiratory system,85+,4121
+2021,Other diseases of the respiratory system,85+,3942
+2022,Other diseases of the respiratory system,85+,4582
+2023,Other diseases of the respiratory system,85+,843
+2020,Other diseases of the respiratory system,Not stated,0
+2021,Other diseases of the respiratory system,Not stated,0
+2022,Other diseases of the respiratory system,Not stated,1
+2023,Other diseases of the respiratory system,Not stated,0
+2020,Other diseases of the respiratory system,All Ages,14952
+2021,Other diseases of the respiratory system,All Ages,24970
+2022,Other diseases of the respiratory system,All Ages,17978
+2023,Other diseases of the respiratory system,All Ages,2411
+2020,Hypertensive diseases,0-24,29
+2021,Hypertensive diseases,0-24,49
+2022,Hypertensive diseases,0-24,20
+2023,Hypertensive diseases,0-24,2
+2020,Hypertensive diseases,25-34,226
+2021,Hypertensive diseases,25-34,457
+2022,Hypertensive diseases,25-34,190
+2023,Hypertensive diseases,25-34,7
+2020,Hypertensive diseases,35-44,973
+2021,Hypertensive diseases,35-44,1887
+2022,Hypertensive diseases,35-44,694
+2023,Hypertensive diseases,35-44,39
+2020,Hypertensive diseases,45-54,3181
+2021,Hypertensive diseases,45-54,5332
+2022,Hypertensive diseases,45-54,1886
+2023,Hypertensive diseases,45-54,111
+2020,Hypertensive diseases,55-64,9089
+2021,Hypertensive diseases,55-64,12313
+2022,Hypertensive diseases,55-64,5064
+2023,Hypertensive diseases,55-64,355
+2020,Hypertensive diseases,65-74,17149
+2021,Hypertensive diseases,65-74,18838
+2022,Hypertensive diseases,65-74,9441
+2023,Hypertensive diseases,65-74,890
+2020,Hypertensive diseases,75-84,22195
+2021,Hypertensive diseases,75-84,19809
+2022,Hypertensive diseases,75-84,12920
+2023,Hypertensive diseases,75-84,1544
+2020,Hypertensive diseases,85+,26382
+2021,Hypertensive diseases,85+,18809
+2022,Hypertensive diseases,85+,15918
+2023,Hypertensive diseases,85+,2369
+2020,Hypertensive diseases,Not stated,3
+2021,Hypertensive diseases,Not stated,1
+2022,Hypertensive diseases,Not stated,2
+2023,Hypertensive diseases,Not stated,0
+2020,Hypertensive diseases,All Ages,79227
+2021,Hypertensive diseases,All Ages,77495
+2022,Hypertensive diseases,All Ages,46135
+2023,Hypertensive diseases,All Ages,5317
+2020,Ischemic heart disease,0-24,6
+2021,Ischemic heart disease,0-24,19
+2022,Ischemic heart disease,0-24,5
+2023,Ischemic heart disease,0-24,0
+2020,Ischemic heart disease,25-34,53
+2021,Ischemic heart disease,25-34,145
+2022,Ischemic heart disease,25-34,79
+2023,Ischemic heart disease,25-34,1
+2020,Ischemic heart disease,35-44,227
+2021,Ischemic heart disease,35-44,536
+2022,Ischemic heart disease,35-44,299
+2023,Ischemic heart disease,35-44,14
+2020,Ischemic heart disease,45-54,1008
+2021,Ischemic heart disease,45-54,2012
+2022,Ischemic heart disease,45-54,933
+2023,Ischemic heart disease,45-54,67
+2020,Ischemic heart disease,55-64,3782
+2021,Ischemic heart disease,55-64,5910
+2022,Ischemic heart disease,55-64,3104
+2023,Ischemic heart disease,55-64,236
+2020,Ischemic heart disease,65-74,8880
+2021,Ischemic heart disease,65-74,11043
+2022,Ischemic heart disease,65-74,6652
+2023,Ischemic heart disease,65-74,692
+2020,Ischemic heart disease,75-84,13547
+2021,Ischemic heart disease,75-84,13601
+2022,Ischemic heart disease,75-84,9803
+2023,Ischemic heart disease,75-84,1242
+2020,Ischemic heart disease,85+,15731
+2021,Ischemic heart disease,85+,12011
+2022,Ischemic heart disease,85+,11070
+2023,Ischemic heart disease,85+,1653
+2020,Ischemic heart disease,Not stated,3
+2021,Ischemic heart disease,Not stated,2
+2022,Ischemic heart disease,Not stated,1
+2023,Ischemic heart disease,Not stated,0
+2020,Ischemic heart disease,All Ages,43237
+2021,Ischemic heart disease,All Ages,45279
+2022,Ischemic heart disease,All Ages,31946
+2023,Ischemic heart disease,All Ages,3905
+2020,Cardiac arrest,0-24,90
+2021,Cardiac arrest,0-24,242
+2022,Cardiac arrest,0-24,127
+2023,Cardiac arrest,0-24,8
+2020,Cardiac arrest,25-34,361
+2021,Cardiac arrest,25-34,926
+2022,Cardiac arrest,25-34,300
+2023,Cardiac arrest,25-34,16
+2020,Cardiac arrest,35-44,953
+2021,Cardiac arrest,35-44,2328
+2022,Cardiac arrest,35-44,734
+2023,Cardiac arrest,35-44,62
+2020,Cardiac arrest,45-54,2784
+2021,Cardiac arrest,45-54,5390
+2022,Cardiac arrest,45-54,1680
+2023,Cardiac arrest,45-54,106
+2020,Cardiac arrest,55-64,6344
+2021,Cardiac arrest,55-64,10567
+2022,Cardiac arrest,55-64,4091
+2023,Cardiac arrest,55-64,260
+2020,Cardiac arrest,65-74,10288
+2021,Cardiac arrest,65-74,13921
+2022,Cardiac arrest,65-74,6837
+2023,Cardiac arrest,65-74,627
+2020,Cardiac arrest,75-84,11407
+2021,Cardiac arrest,75-84,12897
+2022,Cardiac arrest,75-84,7866
+2023,Cardiac arrest,75-84,908
+2020,Cardiac arrest,85+,11637
+2021,Cardiac arrest,85+,10044
+2022,Cardiac arrest,85+,7827
+2023,Cardiac arrest,85+,1054
+2020,Cardiac arrest,Not stated,1
+2021,Cardiac arrest,Not stated,0
+2022,Cardiac arrest,Not stated,0
+2023,Cardiac arrest,Not stated,0
+2020,Cardiac arrest,All Ages,43865
+2021,Cardiac arrest,All Ages,56315
+2022,Cardiac arrest,All Ages,29462
+2023,Cardiac arrest,All Ages,3041
+2020,Cardiac arrhythmia,0-24,18
+2021,Cardiac arrhythmia,0-24,37
+2022,Cardiac arrhythmia,0-24,45
+2023,Cardiac arrhythmia,0-24,0
+2020,Cardiac arrhythmia,25-34,56
+2021,Cardiac arrhythmia,25-34,161
+2022,Cardiac arrhythmia,25-34,64
+2023,Cardiac arrhythmia,25-34,1
+2020,Cardiac arrhythmia,35-44,147
+2021,Cardiac arrhythmia,35-44,428
+2022,Cardiac arrhythmia,35-44,175
+2023,Cardiac arrhythmia,35-44,8
+2020,Cardiac arrhythmia,45-54,556
+2021,Cardiac arrhythmia,45-54,1328
+2022,Cardiac arrhythmia,45-54,502
+2023,Cardiac arrhythmia,45-54,44
+2020,Cardiac arrhythmia,55-64,1881
+2021,Cardiac arrhythmia,55-64,3806
+2022,Cardiac arrhythmia,55-64,1899
+2023,Cardiac arrhythmia,55-64,130
+2020,Cardiac arrhythmia,65-74,4912
+2021,Cardiac arrhythmia,65-74,7578
+2022,Cardiac arrhythmia,65-74,4363
+2023,Cardiac arrhythmia,65-74,475
+2020,Cardiac arrhythmia,75-84,8553
+2021,Cardiac arrhythmia,75-84,10506
+2022,Cardiac arrhythmia,75-84,7673
+2023,Cardiac arrhythmia,75-84,1064
+2020,Cardiac arrhythmia,85+,11560
+2021,Cardiac arrhythmia,85+,10962
+2022,Cardiac arrhythmia,85+,9911
+2023,Cardiac arrhythmia,85+,1573
+2020,Cardiac arrhythmia,Not stated,0
+2021,Cardiac arrhythmia,Not stated,0
+2022,Cardiac arrhythmia,Not stated,0
+2023,Cardiac arrhythmia,Not stated,0
+2020,Cardiac arrhythmia,All Ages,27683
+2021,Cardiac arrhythmia,All Ages,34806
+2022,Cardiac arrhythmia,All Ages,24632
+2023,Cardiac arrhythmia,All Ages,3295
+2020,Heart failure,0-24,12
+2021,Heart failure,0-24,37
+2022,Heart failure,0-24,25
+2023,Heart failure,0-24,0
+2020,Heart failure,25-34,63
+2021,Heart failure,25-34,162
+2022,Heart failure,25-34,81
+2023,Heart failure,25-34,4
+2020,Heart failure,35-44,199
+2021,Heart failure,35-44,415
+2022,Heart failure,35-44,246
+2023,Heart failure,35-44,21
+2020,Heart failure,45-54,656
+2021,Heart failure,45-54,1203
+2022,Heart failure,45-54,665
+2023,Heart failure,45-54,48
+2020,Heart failure,55-64,2175
+2021,Heart failure,55-64,3216
+2022,Heart failure,55-64,2128
+2023,Heart failure,55-64,216
+2020,Heart failure,65-74,4921
+2021,Heart failure,65-74,6654
+2022,Heart failure,65-74,4827
+2023,Heart failure,65-74,632
+2020,Heart failure,75-84,8446
+2021,Heart failure,75-84,9559
+2022,Heart failure,75-84,8238
+2023,Heart failure,75-84,1230
+2020,Heart failure,85+,12809
+2021,Heart failure,85+,11469
+2022,Heart failure,85+,11580
+2023,Heart failure,85+,1986
+2020,Heart failure,Not stated,1
+2021,Heart failure,Not stated,0
+2022,Heart failure,Not stated,0
+2023,Heart failure,Not stated,0
+2020,Heart failure,All Ages,29282
+2021,Heart failure,All Ages,32715
+2022,Heart failure,All Ages,27790
+2023,Heart failure,All Ages,4137
+2020,Cerebrovascular diseases,0-24,19
+2021,Cerebrovascular diseases,0-24,50
+2022,Cerebrovascular diseases,0-24,38
+2023,Cerebrovascular diseases,0-24,1
+2020,Cerebrovascular diseases,25-34,54
+2021,Cerebrovascular diseases,25-34,150
+2022,Cerebrovascular diseases,25-34,81
+2023,Cerebrovascular diseases,25-34,5
+2020,Cerebrovascular diseases,35-44,178
+2021,Cerebrovascular diseases,35-44,439
+2022,Cerebrovascular diseases,35-44,201
+2023,Cerebrovascular diseases,35-44,19
+2020,Cerebrovascular diseases,45-54,649
+2021,Cerebrovascular diseases,45-54,1158
+2022,Cerebrovascular diseases,45-54,542
+2023,Cerebrovascular diseases,45-54,36
+2020,Cerebrovascular diseases,55-64,2031
+2021,Cerebrovascular diseases,55-64,2889
+2022,Cerebrovascular diseases,55-64,1623
+2023,Cerebrovascular diseases,55-64,165
+2020,Cerebrovascular diseases,65-74,4182
+2021,Cerebrovascular diseases,65-74,4914
+2022,Cerebrovascular diseases,65-74,3402
+2023,Cerebrovascular diseases,65-74,392
+2020,Cerebrovascular diseases,75-84,5678
+2021,Cerebrovascular diseases,75-84,5597
+2022,Cerebrovascular diseases,75-84,4998
+2023,Cerebrovascular diseases,75-84,702
+2020,Cerebrovascular diseases,85+,6580
+2021,Cerebrovascular diseases,85+,5531
+2022,Cerebrovascular diseases,85+,6027
+2023,Cerebrovascular diseases,85+,980
+2020,Cerebrovascular diseases,Not stated,1
+2021,Cerebrovascular diseases,Not stated,0
+2022,Cerebrovascular diseases,Not stated,1
+2023,Cerebrovascular diseases,Not stated,0
+2020,Cerebrovascular diseases,All Ages,19372
+2021,Cerebrovascular diseases,All Ages,20728
+2022,Cerebrovascular diseases,All Ages,16913
+2023,Cerebrovascular diseases,All Ages,2300
+2020,Other diseases of the circulatory system,0-24,85
+2021,Other diseases of the circulatory system,0-24,211
+2022,Other diseases of the circulatory system,0-24,153
+2023,Other diseases of the circulatory system,0-24,10
+2020,Other diseases of the circulatory system,25-34,221
+2021,Other diseases of the circulatory system,25-34,590
+2022,Other diseases of the circulatory system,25-34,327
+2023,Other diseases of the circulatory system,25-34,14
+2020,Other diseases of the circulatory system,35-44,474
+2021,Other diseases of the circulatory system,35-44,1447
+2022,Other diseases of the circulatory system,35-44,644
+2023,Other diseases of the circulatory system,35-44,54
+2020,Other diseases of the circulatory system,45-54,1205
+2021,Other diseases of the circulatory system,45-54,3267
+2022,Other diseases of the circulatory system,45-54,1426
+2023,Other diseases of the circulatory system,45-54,99
+2020,Other diseases of the circulatory system,55-64,2837
+2021,Other diseases of the circulatory system,55-64,6392
+2022,Other diseases of the circulatory system,55-64,3513
+2023,Other diseases of the circulatory system,55-64,284
+2020,Other diseases of the circulatory system,65-74,5032
+2021,Other diseases of the circulatory system,65-74,8735
+2022,Other diseases of the circulatory system,65-74,5547
+2023,Other diseases of the circulatory system,65-74,610
+2020,Other diseases of the circulatory system,75-84,6262
+2021,Other diseases of the circulatory system,75-84,8351
+2022,Other diseases of the circulatory system,75-84,6832
+2023,Other diseases of the circulatory system,75-84,924
+2020,Other diseases of the circulatory system,85+,7050
+2021,Other diseases of the circulatory system,85+,7162
+2022,Other diseases of the circulatory system,85+,7134
+2023,Other diseases of the circulatory system,85+,1185
+2020,Other diseases of the circulatory system,Not stated,0
+2021,Other diseases of the circulatory system,Not stated,1
+2022,Other diseases of the circulatory system,Not stated,0
+2023,Other diseases of the circulatory system,Not stated,0
+2020,Other diseases of the circulatory system,All Ages,23166
+2021,Other diseases of the circulatory system,All Ages,36156
+2022,Other diseases of the circulatory system,All Ages,25576
+2023,Other diseases of the circulatory system,All Ages,3180
+2020,Sepsis,0-24,72
+2021,Sepsis,0-24,224
+2022,Sepsis,0-24,103
+2023,Sepsis,0-24,9
+2020,Sepsis,25-34,262
+2021,Sepsis,25-34,797
+2022,Sepsis,25-34,294
+2023,Sepsis,25-34,13
+2020,Sepsis,35-44,753
+2021,Sepsis,35-44,2313
+2022,Sepsis,35-44,715
+2023,Sepsis,35-44,37
+2020,Sepsis,45-54,2445
+2021,Sepsis,45-54,5400
+2022,Sepsis,45-54,1837
+2023,Sepsis,45-54,111
+2020,Sepsis,55-64,5940
+2021,Sepsis,55-64,11027
+2022,Sepsis,55-64,4493
+2023,Sepsis,55-64,338
+2020,Sepsis,65-74,10036
+2021,Sepsis,65-74,14037
+2022,Sepsis,65-74,7227
+2023,Sepsis,65-74,715
+2020,Sepsis,75-84,9617
+2021,Sepsis,75-84,10830
+2022,Sepsis,75-84,7091
+2023,Sepsis,75-84,969
+2020,Sepsis,85+,6636
+2021,Sepsis,85+,5518
+2022,Sepsis,85+,5280
+2023,Sepsis,85+,939
+2020,Sepsis,Not stated,1
+2021,Sepsis,Not stated,0
+2022,Sepsis,Not stated,1
+2023,Sepsis,Not stated,0
+2020,Sepsis,All Ages,35762
+2021,Sepsis,All Ages,50146
+2022,Sepsis,All Ages,27041
+2023,Sepsis,All Ages,3131
+2020,Malignant neoplasms,0-24,40
+2021,Malignant neoplasms,0-24,65
+2022,Malignant neoplasms,0-24,64
+2023,Malignant neoplasms,0-24,1
+2020,Malignant neoplasms,25-34,62
+2021,Malignant neoplasms,25-34,120
+2022,Malignant neoplasms,25-34,90
+2023,Malignant neoplasms,25-34,8
+2020,Malignant neoplasms,35-44,206
+2021,Malignant neoplasms,35-44,312
+2022,Malignant neoplasms,35-44,323
+2023,Malignant neoplasms,35-44,29
+2020,Malignant neoplasms,45-54,600
+2021,Malignant neoplasms,45-54,1073
+2022,Malignant neoplasms,45-54,990
+2023,Malignant neoplasms,45-54,105
+2020,Malignant neoplasms,55-64,2198
+2021,Malignant neoplasms,55-64,3515
+2022,Malignant neoplasms,55-64,3451
+2023,Malignant neoplasms,55-64,373
+2020,Malignant neoplasms,65-74,4570
+2021,Malignant neoplasms,65-74,6724
+2022,Malignant neoplasms,65-74,6804
+2023,Malignant neoplasms,65-74,934
+2020,Malignant neoplasms,75-84,5337
+2021,Malignant neoplasms,75-84,7012
+2022,Malignant neoplasms,75-84,7447
+2023,Malignant neoplasms,75-84,1080
+2020,Malignant neoplasms,85+,4393
+2021,Malignant neoplasms,85+,4518
+2022,Malignant neoplasms,85+,5204
+2023,Malignant neoplasms,85+,836
+2020,Malignant neoplasms,Not stated,0
+2021,Malignant neoplasms,Not stated,0
+2022,Malignant neoplasms,Not stated,0
+2023,Malignant neoplasms,Not stated,0
+2020,Malignant neoplasms,All Ages,17406
+2021,Malignant neoplasms,All Ages,23339
+2022,Malignant neoplasms,All Ages,24373
+2023,Malignant neoplasms,All Ages,3366
+2020,Diabetes,0-24,84
+2021,Diabetes,0-24,144
+2022,Diabetes,0-24,50
+2023,Diabetes,0-24,1
+2020,Diabetes,25-34,352
+2021,Diabetes,25-34,672
+2022,Diabetes,25-34,198
+2023,Diabetes,25-34,7
+2020,Diabetes,35-44,1258
+2021,Diabetes,35-44,2300
+2022,Diabetes,35-44,645
+2023,Diabetes,35-44,40
+2020,Diabetes,45-54,3895
+2021,Diabetes,45-54,6291
+2022,Diabetes,45-54,1899
+2023,Diabetes,45-54,93
+2020,Diabetes,55-64,9863
+2021,Diabetes,55-64,13297
+2022,Diabetes,55-64,4952
+2023,Diabetes,55-64,353
+2020,Diabetes,65-74,16910
+2021,Diabetes,65-74,19084
+2022,Diabetes,65-74,8459
+2023,Diabetes,65-74,773
+2020,Diabetes,75-84,17496
+2021,Diabetes,75-84,16301
+2022,Diabetes,75-84,9498
+2023,Diabetes,75-84,1051
+2020,Diabetes,85+,12751
+2021,Diabetes,85+,9068
+2022,Diabetes,85+,6889
+2023,Diabetes,85+,944
+2020,Diabetes,Not stated,2
+2021,Diabetes,Not stated,0
+2022,Diabetes,Not stated,2
+2023,Diabetes,Not stated,0
+2020,Diabetes,All Ages,62611
+2021,Diabetes,All Ages,67157
+2022,Diabetes,All Ages,32592
+2023,Diabetes,All Ages,3262
+2020,Obesity,0-24,167
+2021,Obesity,0-24,441
+2022,Obesity,0-24,86
+2023,Obesity,0-24,2
+2020,Obesity,25-34,633
+2021,Obesity,25-34,1737
+2022,Obesity,25-34,456
+2023,Obesity,25-34,6
+2020,Obesity,35-44,1377
+2021,Obesity,35-44,3566
+2022,Obesity,35-44,893
+2023,Obesity,35-44,26
+2020,Obesity,45-54,2488
+2021,Obesity,45-54,5750
+2022,Obesity,45-54,1503
+2023,Obesity,45-54,52
+2020,Obesity,55-64,3750
+2021,Obesity,55-64,7351
+2022,Obesity,55-64,2395
+2023,Obesity,55-64,98
+2020,Obesity,65-74,3910
+2021,Obesity,65-74,6011
+2022,Obesity,65-74,2341
+2023,Obesity,65-74,135
+2020,Obesity,75-84,2176
+2021,Obesity,75-84,2565
+2022,Obesity,75-84,1267
+2023,Obesity,75-84,107
+2020,Obesity,85+,590
+2021,Obesity,85+,528
+2022,Obesity,85+,330
+2023,Obesity,85+,44
+2020,Obesity,Not stated,1
+2021,Obesity,Not stated,1
+2022,Obesity,Not stated,0
+2023,Obesity,Not stated,0
+2020,Obesity,All Ages,15092
+2021,Obesity,All Ages,27950
+2022,Obesity,All Ages,9271
+2023,Obesity,All Ages,470
+2020,Alzheimer disease,0-24,0
+2021,Alzheimer disease,0-24,0
+2022,Alzheimer disease,0-24,0
+2023,Alzheimer disease,0-24,0
+2020,Alzheimer disease,25-34,0
+2021,Alzheimer disease,25-34,1
+2022,Alzheimer disease,25-34,1
+2023,Alzheimer disease,25-34,0
+2020,Alzheimer disease,35-44,3
+2021,Alzheimer disease,35-44,0
+2022,Alzheimer disease,35-44,0
+2023,Alzheimer disease,35-44,0
+2020,Alzheimer disease,45-54,9
+2021,Alzheimer disease,45-54,18
+2022,Alzheimer disease,45-54,8
+2023,Alzheimer disease,45-54,0
+2020,Alzheimer disease,55-64,132
+2021,Alzheimer disease,55-64,80
+2022,Alzheimer disease,55-64,86
+2023,Alzheimer disease,55-64,16
+2020,Alzheimer disease,65-74,998
+2021,Alzheimer disease,65-74,638
+2022,Alzheimer disease,65-74,620
+2023,Alzheimer disease,65-74,94
+2020,Alzheimer disease,75-84,4444
+2021,Alzheimer disease,75-84,2795
+2022,Alzheimer disease,75-84,2511
+2023,Alzheimer disease,75-84,361
+2020,Alzheimer disease,85+,9917
+2021,Alzheimer disease,85+,5798
+2022,Alzheimer disease,85+,4944
+2023,Alzheimer disease,85+,749
+2020,Alzheimer disease,Not stated,0
+2021,Alzheimer disease,Not stated,0
+2022,Alzheimer disease,Not stated,0
+2023,Alzheimer disease,Not stated,0
+2020,Alzheimer disease,All Ages,15503
+2021,Alzheimer disease,All Ages,9330
+2022,Alzheimer disease,All Ages,8170
+2023,Alzheimer disease,All Ages,1220
+2020,Vascular and unspecified dementia,0-24,0
+2021,Vascular and unspecified dementia,0-24,0
+2022,Vascular and unspecified dementia,0-24,0
+2023,Vascular and unspecified dementia,0-24,0
+2020,Vascular and unspecified dementia,25-34,1
+2021,Vascular and unspecified dementia,25-34,1
+2022,Vascular and unspecified dementia,25-34,0
+2023,Vascular and unspecified dementia,25-34,0
+2020,Vascular and unspecified dementia,35-44,4
+2021,Vascular and unspecified dementia,35-44,6
+2022,Vascular and unspecified dementia,35-44,1
+2023,Vascular and unspecified dementia,35-44,1
+2020,Vascular and unspecified dementia,45-54,44
+2021,Vascular and unspecified dementia,45-54,25
+2022,Vascular and unspecified dementia,45-54,21
+2023,Vascular and unspecified dementia,45-54,6
+2020,Vascular and unspecified dementia,55-64,563
+2021,Vascular and unspecified dementia,55-64,326
+2022,Vascular and unspecified dementia,55-64,274
+2023,Vascular and unspecified dementia,55-64,30
+2020,Vascular and unspecified dementia,65-74,3695
+2021,Vascular and unspecified dementia,65-74,2074
+2022,Vascular and unspecified dementia,65-74,1704
+2023,Vascular and unspecified dementia,65-74,227
+2020,Vascular and unspecified dementia,75-84,12630
+2021,Vascular and unspecified dementia,75-84,7462
+2022,Vascular and unspecified dementia,75-84,6293
+2023,Vascular and unspecified dementia,75-84,886
+2020,Vascular and unspecified dementia,85+,25760
+2021,Vascular and unspecified dementia,85+,14317
+2022,Vascular and unspecified dementia,85+,11992
+2023,Vascular and unspecified dementia,85+,1896
+2020,Vascular and unspecified dementia,Not stated,2
+2021,Vascular and unspecified dementia,Not stated,0
+2022,Vascular and unspecified dementia,Not stated,0
+2023,Vascular and unspecified dementia,Not stated,0
+2020,Vascular and unspecified dementia,All Ages,42699
+2021,Vascular and unspecified dementia,All Ages,24211
+2022,Vascular and unspecified dementia,All Ages,20285
+2023,Vascular and unspecified dementia,All Ages,3046
+2020,Renal failure,0-24,42
+2021,Renal failure,0-24,149
+2022,Renal failure,0-24,70
+2023,Renal failure,0-24,4
+2020,Renal failure,25-34,227
+2021,Renal failure,25-34,697
+2022,Renal failure,25-34,260
+2023,Renal failure,25-34,13
+2020,Renal failure,35-44,672
+2021,Renal failure,35-44,1952
+2022,Renal failure,35-44,705
+2023,Renal failure,35-44,30
+2020,Renal failure,45-54,2010
+2021,Renal failure,45-54,5140
+2022,Renal failure,45-54,1877
+2023,Renal failure,45-54,78
+2020,Renal failure,55-64,4945
+2021,Renal failure,55-64,10604
+2022,Renal failure,55-64,4581
+2023,Renal failure,55-64,276
+2020,Renal failure,65-74,8993
+2021,Renal failure,65-74,14755
+2022,Renal failure,65-74,7938
+2023,Renal failure,65-74,672
+2020,Renal failure,75-84,9927
+2021,Renal failure,75-84,13189
+2022,Renal failure,75-84,8778
+2023,Renal failure,75-84,1098
+2020,Renal failure,85+,8806
+2021,Renal failure,85+,9075
+2022,Renal failure,85+,8027
+2023,Renal failure,85+,1226
+2020,Renal failure,Not stated,2
+2021,Renal failure,Not stated,0
+2022,Renal failure,Not stated,1
+2023,Renal failure,Not stated,0
+2020,Renal failure,All Ages,35624
+2021,Renal failure,All Ages,55561
+2022,Renal failure,All Ages,32237
+2023,Renal failure,All Ages,3397
+2020,"Intentional and unintentional injury, poisoning, and other adverse events",0-24,62
+2021,"Intentional and unintentional injury, poisoning, and other adverse events",0-24,146
+2022,"Intentional and unintentional injury, poisoning, and other adverse events",0-24,176
+2023,"Intentional and unintentional injury, poisoning, and other adverse events",0-24,9
+2020,"Intentional and unintentional injury, poisoning, and other adverse events",25-34,164
+2021,"Intentional and unintentional injury, poisoning, and other adverse events",25-34,325
+2022,"Intentional and unintentional injury, poisoning, and other adverse events",25-34,320
+2023,"Intentional and unintentional injury, poisoning, and other adverse events",25-34,9
+2020,"Intentional and unintentional injury, poisoning, and other adverse events",35-44,210
+2021,"Intentional and unintentional injury, poisoning, and other adverse events",35-44,640
+2022,"Intentional and unintentional injury, poisoning, and other adverse events",35-44,469
+2023,"Intentional and unintentional injury, poisoning, and other adverse events",35-44,20
+2020,"Intentional and unintentional injury, poisoning, and other adverse events",45-54,360
+2021,"Intentional and unintentional injury, poisoning, and other adverse events",45-54,1097
+2022,"Intentional and unintentional injury, poisoning, and other adverse events",45-54,690
+2023,"Intentional and unintentional injury, poisoning, and other adverse events",45-54,23
+2020,"Intentional and unintentional injury, poisoning, and other adverse events",55-64,775
+2021,"Intentional and unintentional injury, poisoning, and other adverse events",55-64,1959
+2022,"Intentional and unintentional injury, poisoning, and other adverse events",55-64,1312
+2023,"Intentional and unintentional injury, poisoning, and other adverse events",55-64,72
+2020,"Intentional and unintentional injury, poisoning, and other adverse events",65-74,1250
+2021,"Intentional and unintentional injury, poisoning, and other adverse events",65-74,2687
+2022,"Intentional and unintentional injury, poisoning, and other adverse events",65-74,2024
+2023,"Intentional and unintentional injury, poisoning, and other adverse events",65-74,144
+2020,"Intentional and unintentional injury, poisoning, and other adverse events",75-84,1658
+2021,"Intentional and unintentional injury, poisoning, and other adverse events",75-84,2634
+2022,"Intentional and unintentional injury, poisoning, and other adverse events",75-84,2350
+2023,"Intentional and unintentional injury, poisoning, and other adverse events",75-84,245
+2020,"Intentional and unintentional injury, poisoning, and other adverse events",85+,2196
+2021,"Intentional and unintentional injury, poisoning, and other adverse events",85+,2567
+2022,"Intentional and unintentional injury, poisoning, and other adverse events",85+,2835
+2023,"Intentional and unintentional injury, poisoning, and other adverse events",85+,354
+2020,"Intentional and unintentional injury, poisoning, and other adverse events",Not stated,1
+2021,"Intentional and unintentional injury, poisoning, and other adverse events",Not stated,2
+2022,"Intentional and unintentional injury, poisoning, and other adverse events",Not stated,2
+2023,"Intentional and unintentional injury, poisoning, and other adverse events",Not stated,0
+2020,"Intentional and unintentional injury, poisoning, and other adverse events",All Ages,6676
+2021,"Intentional and unintentional injury, poisoning, and other adverse events",All Ages,12057
+2022,"Intentional and unintentional injury, poisoning, and other adverse events",All Ages,10178
+2023,"Intentional and unintentional injury, poisoning, and other adverse events",All Ages,876
+2020,All other conditions and causes (residual),0-24,382
+2021,All other conditions and causes (residual),0-24,1076
+2022,All other conditions and causes (residual),0-24,743
+2023,All other conditions and causes (residual),0-24,45
+2020,All other conditions and causes (residual),25-34,1087
+2021,All other conditions and causes (residual),25-34,2834
+2022,All other conditions and causes (residual),25-34,1283
+2023,All other conditions and causes (residual),25-34,76
+2020,All other conditions and causes (residual),35-44,2502
+2021,All other conditions and causes (residual),35-44,6830
+2022,All other conditions and causes (residual),35-44,2725
+2023,All other conditions and causes (residual),35-44,184
+2020,All other conditions and causes (residual),45-54,6811
+2021,All other conditions and causes (residual),45-54,15539
+2022,All other conditions and causes (residual),45-54,5999
+2023,All other conditions and causes (residual),45-54,381
+2020,All other conditions and causes (residual),55-64,17425
+2021,All other conditions and causes (residual),55-64,32903
+2022,All other conditions and causes (residual),55-64,15311
+2023,All other conditions and causes (residual),55-64,1213
+2020,All other conditions and causes (residual),65-74,32336
+2021,All other conditions and causes (residual),65-74,46996
+2022,All other conditions and causes (residual),65-74,25983
+2023,All other conditions and causes (residual),65-74,2776
+2020,All other conditions and causes (residual),75-84,39673
+2021,All other conditions and causes (residual),75-84,46277
+2022,All other conditions and causes (residual),75-84,31884
+2023,All other conditions and causes (residual),75-84,4405
+2020,All other conditions and causes (residual),85+,42344
+2021,All other conditions and causes (residual),85+,38396
+2022,All other conditions and causes (residual),85+,32360
+2023,All other conditions and causes (residual),85+,5243
+2020,All other conditions and causes (residual),Not stated,5
+2021,All other conditions and causes (residual),Not stated,5
+2022,All other conditions and causes (residual),Not stated,5
+2023,All other conditions and causes (residual),Not stated,0
+2020,All other conditions and causes (residual),All Ages,142565
+2021,All other conditions and causes (residual),All Ages,190856
+2022,All other conditions and causes (residual),All Ages,116293
+2023,All other conditions and causes (residual),All Ages,14323
+2020,COVID-19,0-24,759
+2021,COVID-19,0-24,2083
+2022,COVID-19,0-24,1219
+2023,COVID-19,0-24,66
+2020,COVID-19,25-34,2620
+2021,COVID-19,25-34,7068
+2022,COVID-19,25-34,2342
+2023,COVID-19,25-34,106
+2020,COVID-19,35-44,6779
+2021,COVID-19,35-44,17473
+2022,COVID-19,35-44,5179
+2023,COVID-19,35-44,280
+2020,COVID-19,45-54,18320
+2021,COVID-19,45-54,39485
+2022,COVID-19,45-54,12206
+2023,COVID-19,45-54,637
+2020,COVID-19,55-64,45553
+2021,COVID-19,55-64,79420
+2022,COVID-19,55-64,30628
+2023,COVID-19,55-64,2057
+2020,COVID-19,65-74,82259
+2021,COVID-19,65-74,111706
+2022,COVID-19,65-74,53370
+2023,COVID-19,65-74,4917
+2020,COVID-19,75-84,106207
+2021,COVID-19,75-84,110775
+2022,COVID-19,75-84,67257
+2023,COVID-19,75-84,8155
+2020,COVID-19,85+,122785
+2021,COVID-19,85+,95256
+2022,COVID-19,85+,73226
+2023,COVID-19,85+,10848
+2020,COVID-19,Not stated,11
+2021,COVID-19,Not stated,8
+2022,COVID-19,Not stated,5
+2023,COVID-19,Not stated,0
+2020,COVID-19,All Ages,385293
+2021,COVID-19,All Ages,463274
+2022,COVID-19,All Ages,245432
+2023,COVID-19,All Ages,27066

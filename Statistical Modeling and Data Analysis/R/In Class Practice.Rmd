@@ -1,0 +1,49 @@
+---
+title: "In Class"
+output: html_document
+date: "2023-02-16"
+---
+
+```{r}
+require(mosaic)
+gender_discrimination <- openintro::gender_discrimination
+tally(~ gender + decision, data = gender_discrimination)
+
+
+```
+
+
+```{r}
+tally(~ gender + shuffle(decision), data = gender_discrimination)
+```
+
+```{r}
+null_dist <- do(5000) * tally(~ gender + shuffle(decision), data = gender_discrimination)
+pd<-data.frame(pd=(null_dist$male.promoted/24-null_dist$female.promoted/24))
+hist(pd$pd)
+abline(v=21/24-14/24)
+```
+```{r}
+mean(pd$pd>(21/24-14/24))
+#OR
+count(pd$pd>(21/24-14/24))/5000
+```
+#Class Example 2
+```{r}
+phats <- do(5000) * rflip(n=75)
+hist(phats$prop)
+abline(v=0.66)
+mean(phats$prop>(0.66))
+mean(phats$prop>(0.66)) * 100
+```
+
+
+
+#Class Example 3
+```{r}
+##norm(0,1,b=1.96)
+
+pnorm(1.96)
+pnorm(1.76)
+pnorm(1.32)-pnorm(0.57)
+```

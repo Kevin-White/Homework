@@ -1,0 +1,4 @@
+"0",""
+"0","# Add a legend to the plot"
+"0","legend(""topleft"", legend = names(yearly_matrices_by_age), col = seq_along(yearly_matrices_by_age), lty = 1, cex = 0.65)"
+"0",""

@@ -1,0 +1,283 @@
+---
+title: "Q2Testing"
+author: "Kevin White"
+date: "2023-04-21"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(readr)
+library(knitr)
+library(ggplot2)
+library(reshape2)
+library(lubridate)
+library(dplyr)
+
+ByMonthData <- read_csv("ByMonthData.csv")
+ByYearData <- read_csv("ByYearData.csv")
+
+```
+
+
+
+
+```{r}
+# Define the age groups
+age_groups <- c("0-24", "25-34", "35-44", "45-54", "55-64", "65-74", "75-84", "85+")
+
+# Split the data by age group
+monthly_data_by_age <- split(ByMonthData, ByMonthData$`Age Group`)
+yearly_data_by_age <- split(ByYearData, ByYearData$`Age Group`)
+
+
+# Create a list of matrices for each age group
+month_matrices_by_age <- lapply(monthly_data_by_age[age_groups], function(dataMonth) {
+    dataMonth %>%
+        pivot_wider(id_cols = c("Year", "Month"),
+                    names_from = Condition,
+                    values_from = "COVID-19 Deaths") %>%
+        unite("Year_Month", c("Year", "Month"), sep = "-") %>%
+        column_to_rownames(var = 'Year_Month')
+})
+
+
+yearly_matrices_by_age <- lapply(yearly_data_by_age[age_groups], function(dataYear) {
+    dataYear %>%
+        pivot_wider(id_cols = c("Year"),
+                    names_from = Condition,
+                    values_from = "COVID-19 Deaths") %>%
+        column_to_rownames(var = 'Year')
+})
+
+
+month_matrices_by_age
+yearly_matrices_by_age
+```
+
+```{r}
+# Set the scipen option to a large positive value to avoid scientific notation
+options(scipen = 999)
+
+# Calculate the maximum y value in your data
+max_y <- max(unlist(month_matrices_by_age))
+
+# Create an empty plot with modified ylim
+plot(NA, xlim = range(dates), ylim = c(0, max_y * 4), xlab = "Year-Month", ylab = "Total COVID-19 Deaths", xaxt = "n")
+
+# Add custom tick marks and labels to the x-axis
+axis(side = 1, at = dates, labels = format(dates, "%b %Y"), cex.axis = 0.7)
+
+# Loop over the list of matrices and add a line to the plot for each age group
+for (i in seq_along(month_matrices_by_age)) {
+    # Calculate the total number of deaths for each year and month
+    total_deaths <- rowSums(month_matrices_by_age[[i]])
+
+    # Convert the row names of myMatrixMonth (which represent the years and months) to a Date vector
+    dates <- as.Date(paste0(rownames(month_matrices_by_age[[i]]), "-01"), format = "%Y-%m-%d")
+
+    # Add a line to the plot for this age group
+    lines(dates, total_deaths, col = i)
+}
+
+# Add a legend to the plot
+legend("topleft", legend = names(month_matrices_by_age), col = seq_along(month_matrices_by_age), lty = 1, cex = 0.65)
+```
+
+
+
+```{r}
+# Set the scipen option to a large positive value to avoid scientific notation
+options(scipen = 999)
+
+# Calculate the maximum y value in your data
+max_y <- max(unlist(yearly_matrices_by_age))
+
+# Create an empty plot with modified ylim
+plot(NA, xlim = range(years), ylim = c(0, max_y * 6.5), xlab = "Year", ylab = "Total COVID-19 Deaths", xaxt = "n")
+
+# Add custom tick marks and labels to the x-axis
+axis(side = 1, at = years, labels = years, cex.axis = 0.7)
+
+# Loop over the list of matrices and add a line to the plot for each age group
+for (i in seq_along(yearly_matrices_by_age)) {
+    # Calculate the total number of deaths for each year
+    total_deaths <- rowSums(yearly_matrices_by_age[[i]])
+
+    # Convert the row names of myMatrixYear (which represent the years) to a numeric vector
+    years <- as.numeric(rownames(yearly_matrices_by_age[[i]]))
+
+    # Add a line to the plot for this age group
+    lines(years, total_deaths, col = i)
+}
+
+# Add a legend to the plot
+legend("topleft", legend = names(yearly_matrices_by_age), col = seq_along(yearly_matrices_by_age), lty = 1, cex = 0.65)
+
+```
+
+```{r}
+top_contributors_by_age <- lapply(month_matrices_by_age, function(mat) {
+    colSums(mat) %>%
+        sort(decreasing = TRUE) %>%
+        head(3) %>%
+        names()
+})
+
+top_contributors_by_age
+```
+
+```{r}
+# Create a data frame for plotting
+plot_data <- data.frame(Age_Group = character(),
+                        Condition = character(),
+                        Deaths = numeric())
+
+for (age_group in names(top_contributors_by_age)) {
+    mat <- month_matrices_by_age[[age_group]]
+    top_contributors <- top_contributors_by_age[[age_group]]
+    for (contributor in top_contributors) {
+        plot_data <- rbind(plot_data,
+                           data.frame(Age_Group = age_group,
+                                      Condition = contributor,
+                                      Deaths = sum(mat[,contributor])))
+    }
+}
+
+# Create the plot
+ggplot(plot_data, aes(x = Age_Group, y = Deaths, fill = Condition)) +
+    geom_col(position = "dodge") +
+    labs(title = "Top 3 Contributors to Death by Age Group",
+         x = "Age Group",
+         y = "Deaths")
+```
+```{r}
+top_contributors_by_age_no_covid <- lapply(month_matrices_by_age, function(mat) {
+    mat_no_covid <- mat[,colnames(mat) != "COVID-19"]
+    colSums(mat_no_covid) %>%
+        sort(decreasing = TRUE) %>%
+        head(3) %>%
+        names()
+})
+
+top_contributors_by_age_no_covid
+```
+
+
+```{r}
+# Create a data frame for plotting
+plot_data <- data.frame(Age_Group = character(),
+                        Condition = character(),
+                        Deaths = numeric())
+
+for (age_group in names(top_contributors_by_age_no_covid)) {
+    mat <- month_matrices_by_age[[age_group]]
+    top_contributors <- top_contributors_by_age_no_covid[[age_group]]
+    for (contributor in top_contributors) {
+        plot_data <- rbind(plot_data,
+                           data.frame(Age_Group = age_group,
+                                      Condition = contributor,
+                                      Deaths = sum(mat[,contributor])))
+    }
+}
+
+# Create the plot
+ggplot(plot_data, aes(x = Age_Group, y = Deaths, fill = Condition)) +
+    geom_col(position = "dodge") +
+    labs(title = "Top 3 Contributors to Death by Age Group",
+         x = "Age Group",
+         y = "Deaths")
+```
+
+```{r}
+# Loop over each age group
+for (age_group in names(month_matrices_by_age)) {
+    # Extract the data for the current age group
+    data_age_group <- month_matrices_by_age[[age_group]]
+    
+    # Convert the data to long format for plotting
+    data_long <- data_age_group %>%
+        rownames_to_column(var = "Year_Month") %>%
+        pivot_longer(cols = -Year_Month, names_to = "Condition", values_to = "Deaths")
+    
+    # Convert the Year_Month column to a date format
+    data_long$Year_Month <- ym(data_long$Year_Month)
+    
+    # Create a line plot of deaths over time
+    p <- ggplot(data_long, aes(x = Year_Month, y = Deaths, color = Condition)) +
+        geom_line() +
+        labs(title = paste("Deaths in Age Group", age_group),
+             x = "Year-Month",
+             y = "Deaths")
+    
+    # Print the plot
+    print(p)
+}
+```
+
+```{r}
+data_0_24 <- month_matrices_by_age[["0-24"]]
+
+# calculate the total number of deaths for each month
+monthly_deaths <- rowSums(data_0_24)
+ 
+monthly_deaths
+# define the bin boundaries
+breaks <- c(0, 200, 400, 600, 800, 1000)
+
+# group the data into bins
+monthly_deaths_binned <- cut(monthly_deaths, breaks = breaks)
+
+# count the number of occurrences of each outcome
+counts <- table(monthly_deaths_binned)
+
+# calculate the probabilities for each outcome
+prob <- counts / sum(counts)
+
+# create a data frame with the outcomes and probabilities
+data_pmf <- data.frame(deaths = names(prob), prob)
+
+# plot the PMF using ggplot2
+p <- ggplot(data_pmf, aes(deaths, prob)) +
+  geom_bar(stat = "identity", color = "black", fill = "white", width = 0.9) +
+  scale_x_discrete(labels = function(x) format(x, scientific = FALSE)) +
+  ggtitle("PMF Plot for Age Group 0-24") +
+  xlab("Monthly Deaths (binned)") +
+  ylab("P(X = x)")
+
+print(p)
+
+
+```
+
+```{r}
+# Convert monthly_deaths to a time series object
+monthly_deaths_ts <- ts(monthly_deaths, start = c(2020, 1), frequency = 12)
+
+# Subset the time series to include only the relevant time periods
+before <- window(monthly_deaths_ts, end = c(2021, 7))
+after <- window(monthly_deaths_ts, start = c(2021, 8))
+
+# Calculate the mean number of deaths before and after August 2021
+mean_before <- mean(before)
+mean_after <- mean(after)
+
+sd(after)
+
+length(after)
+
+monthly_deaths_ts
+
+# Conduct a one-sample t-test to compare the mean after August 2021 to the mean before August 2021
+t.test(after, mu = mean_before)
+
+# Add a small amount of random noise to the data
+after
+before_jittered <- jitter(before)
+after_jittered <- jitter(after)
+
+# Perform the Wilcoxon Signed-Rank Test on the jittered data
+wilcox.test(before_jittered, after_jittered, paired = FALSE)
+
+
+```

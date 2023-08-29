@@ -1,0 +1,92 @@
+---
+title: "Map Test"
+author: "Kevin White"
+date: "2023-04-27"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+library(ggplot2)
+library(readr)
+library(tidyverse)
+library(maps)
+library(scales)
+Pop <- read_csv("Pop.csv", show_col_types = FALSE)
+AllAgesByState <- read_csv("AllAgesByState.csv", show_col_types = FALSE)
+
+```
+
+```{r}
+# Assuming your data is in a data frame called 'data'
+state_condition_matrix <- AllAgesByState %>%
+    pivot_wider(names_from = 'Condition',
+                values_from = "COVID-19 Deaths") %>%
+    column_to_rownames(var = 'State')
+
+state_condition_matrix
+
+# Calculate the sum of COVID-19 deaths for each state
+state_deaths <- rowSums(state_condition_matrix)
+
+# Convert the result to a data frame
+state_deaths_df <- data.frame(state = names(state_deaths), deaths = state_deaths)
+
+state_deaths_df
+```
+```{r}
+state_data <- left_join(state_deaths_df, Pop, by = c("state" = "Geographic Area"))
+
+# Calculate the ratio of COVID-19 deaths per 1000 population
+state_data$ratio <- (state_data$deaths / state_data$`2022`) * 1000
+
+state_data
+```
+```{r}
+# Convert the state names to lowercase and replace spaces with dots
+state_data$state <- tolower(gsub(" ", " ", state_data$state))
+
+# Get the map data for the US states
+us_states_map <- map_data("state")
+
+# Join your population data with the map data
+pop_map_data <- left_join(us_states_map, state_data, by = c("region" = "state"))
+
+# Create the choropleth map
+ggplot(pop_map_data, aes(x = long, y = lat, group = group)) +
+  geom_polygon(aes(fill = ratio)) +
+  scale_fill_gradient(low = "white", high = "red", name = "Deaths per 1000 population") +
+  coord_map() +
+  theme_void()
+```
+
+```{r}
+# Get the map data for the US states
+
+Pop$`Geographic Area` <- tolower(gsub(" ", " ", Pop$`Geographic Area`))
+
+# Get the map data for the US states
+us_states_map <- map_data("state")
+
+# Join your population data with the map data
+pop_map_data <- left_join(us_states_map, Pop, by = c("region" = "Geographic Area"))
+
+# Calculate the centroid of each state
+state_centroids <- pop_map_data %>%
+  group_by(region) %>%
+  summarize(long = mean(long), lat = mean(lat), population = first(`2022`))
+
+# Create a new column with abbreviated population values
+state_centroids$pop_abbrev <- ifelse(state_centroids$population >= 1e6,
+                                     paste0(round(state_centroids$population / 1e6, 1), "m"),
+                                     ifelse(state_centroids$population >= 1e3,
+                                            paste0(round(state_centroids$population / 1e3, 1), "k"),
+                                            as.character(state_centroids$population)))
+
+# Create the choropleth map with abbreviated population labels
+ggplot(pop_map_data, aes(x = long, y = lat, group = group)) +
+  geom_polygon(aes(fill = `2022`)) +
+  scale_fill_gradient(low = "white", high = "red", labels = label_number(), name = "2022 Population") +
+  coord_map() +
+  theme_void() 
+#+ geom_text(data = state_centroids, aes(x = long, y = lat, label = pop_abbrev, group = region), size = 3)
+```

@@ -1,0 +1,6 @@
+"0","myMatrix <- AllAgesByYear %>%"
+"0","    pivot_wider(names_from = Condition,"
+"0","                values_from = ""COVID-19 Deaths"") %>%"
+"0","    column_to_rownames(var = 'Year')"
+"0",""
+"0","myMatrix"

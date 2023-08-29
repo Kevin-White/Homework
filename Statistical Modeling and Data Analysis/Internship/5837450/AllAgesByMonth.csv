@@ -1,0 +1,898 @@
+Year,Month,Condition,COVID-19 Deaths
+2020,1,Influenza and pneumonia,2
+2020,2,Influenza and pneumonia,8
+2020,3,Influenza and pneumonia,3229
+2020,4,Influenza and pneumonia,27501
+2020,5,Influenza and pneumonia,14756
+2020,6,Influenza and pneumonia,7104
+2020,7,Influenza and pneumonia,13767
+2020,8,Influenza and pneumonia,14016
+2020,9,Influenza and pneumonia,8697
+2020,10,Influenza and pneumonia,10805
+2020,11,Influenza and pneumonia,23168
+2020,12,Influenza and pneumonia,44970
+2021,1,Influenza and pneumonia,52320
+2021,2,Influenza and pneumonia,24775
+2021,3,Influenza and pneumonia,11537
+2021,4,Influenza and pneumonia,9288
+2021,5,Influenza and pneumonia,7720
+2021,6,Influenza and pneumonia,4121
+2021,7,Influenza and pneumonia,5917
+2021,8,Influenza and pneumonia,27965
+2021,9,Influenza and pneumonia,36777
+2021,10,Influenza and pneumonia,24186
+2021,11,Influenza and pneumonia,17426
+2021,12,Influenza and pneumonia,24542
+2022,1,Influenza and pneumonia,40225
+2022,2,Influenza and pneumonia,23878
+2022,3,Influenza and pneumonia,6472
+2022,4,Influenza and pneumonia,1990
+2022,5,Influenza and pneumonia,2243
+2022,6,Influenza and pneumonia,2907
+2022,7,Influenza and pneumonia,3969
+2022,8,Influenza and pneumonia,4364
+2022,9,Influenza and pneumonia,3281
+2022,10,Influenza and pneumonia,2807
+2022,11,Influenza and pneumonia,2944
+2022,12,Influenza and pneumonia,4561
+2023,1,Influenza and pneumonia,4947
+2023,2,Influenza and pneumonia,2772
+2023,3,Influenza and pneumonia,1130
+2020,1,Chronic lower respiratory diseases,1
+2020,2,Chronic lower respiratory diseases,3
+2020,3,Chronic lower respiratory diseases,622
+2020,4,Chronic lower respiratory diseases,4830
+2020,5,Chronic lower respiratory diseases,3329
+2020,6,Chronic lower respiratory diseases,1544
+2020,7,Chronic lower respiratory diseases,2980
+2020,8,Chronic lower respiratory diseases,2702
+2020,9,Chronic lower respiratory diseases,1707
+2020,10,Chronic lower respiratory diseases,2617
+2020,11,Chronic lower respiratory diseases,5468
+2020,12,Chronic lower respiratory diseases,9177
+2021,1,Chronic lower respiratory diseases,8825
+2021,2,Chronic lower respiratory diseases,4022
+2021,3,Chronic lower respiratory diseases,2100
+2021,4,Chronic lower respiratory diseases,1642
+2021,5,Chronic lower respiratory diseases,1289
+2021,6,Chronic lower respiratory diseases,746
+2021,7,Chronic lower respiratory diseases,961
+2021,8,Chronic lower respiratory diseases,3594
+2021,9,Chronic lower respiratory diseases,4608
+2021,10,Chronic lower respiratory diseases,3443
+2021,11,Chronic lower respiratory diseases,2897
+2021,12,Chronic lower respiratory diseases,3913
+2022,1,Chronic lower respiratory diseases,8120
+2022,2,Chronic lower respiratory diseases,5651
+2022,3,Chronic lower respiratory diseases,2020
+2022,4,Chronic lower respiratory diseases,914
+2022,5,Chronic lower respiratory diseases,1048
+2022,6,Chronic lower respiratory diseases,1278
+2022,7,Chronic lower respiratory diseases,1795
+2022,8,Chronic lower respiratory diseases,1899
+2022,9,Chronic lower respiratory diseases,1606
+2022,10,Chronic lower respiratory diseases,1406
+2022,11,Chronic lower respiratory diseases,1395
+2022,12,Chronic lower respiratory diseases,2001
+2023,1,Chronic lower respiratory diseases,2029
+2023,2,Chronic lower respiratory diseases,1220
+2023,3,Chronic lower respiratory diseases,574
+2020,1,Adult respiratory distress syndrome,0
+2020,2,Adult respiratory distress syndrome,1
+2020,3,Adult respiratory distress syndrome,1629
+2020,4,Adult respiratory distress syndrome,9957
+2020,5,Adult respiratory distress syndrome,4576
+2020,6,Adult respiratory distress syndrome,1957
+2020,7,Adult respiratory distress syndrome,3373
+2020,8,Adult respiratory distress syndrome,3317
+2020,9,Adult respiratory distress syndrome,2038
+2020,10,Adult respiratory distress syndrome,2300
+2020,11,Adult respiratory distress syndrome,4451
+2020,12,Adult respiratory distress syndrome,8118
+2021,1,Adult respiratory distress syndrome,9177
+2021,2,Adult respiratory distress syndrome,4880
+2021,3,Adult respiratory distress syndrome,2408
+2021,4,Adult respiratory distress syndrome,1924
+2021,5,Adult respiratory distress syndrome,1754
+2021,6,Adult respiratory distress syndrome,1004
+2021,7,Adult respiratory distress syndrome,1444
+2021,8,Adult respiratory distress syndrome,5666
+2021,9,Adult respiratory distress syndrome,7641
+2021,10,Adult respiratory distress syndrome,5167
+2021,11,Adult respiratory distress syndrome,3617
+2021,12,Adult respiratory distress syndrome,4745
+2022,1,Adult respiratory distress syndrome,6352
+2022,2,Adult respiratory distress syndrome,3776
+2022,3,Adult respiratory distress syndrome,1062
+2022,4,Adult respiratory distress syndrome,288
+2022,5,Adult respiratory distress syndrome,206
+2022,6,Adult respiratory distress syndrome,246
+2022,7,Adult respiratory distress syndrome,386
+2022,8,Adult respiratory distress syndrome,393
+2022,9,Adult respiratory distress syndrome,263
+2022,10,Adult respiratory distress syndrome,247
+2022,11,Adult respiratory distress syndrome,265
+2022,12,Adult respiratory distress syndrome,387
+2023,1,Adult respiratory distress syndrome,428
+2023,2,Adult respiratory distress syndrome,289
+2023,3,Adult respiratory distress syndrome,110
+2020,1,Respiratory failure,1
+2020,2,Respiratory failure,7
+2020,3,Respiratory failure,2382
+2020,4,Respiratory failure,22105
+2020,5,Respiratory failure,12562
+2020,6,Respiratory failure,5790
+2020,7,Respiratory failure,10298
+2020,8,Respiratory failure,10994
+2020,9,Respiratory failure,7359
+2020,10,Respiratory failure,9203
+2020,11,Respiratory failure,19712
+2020,12,Respiratory failure,37942
+2021,1,Respiratory failure,43296
+2021,2,Respiratory failure,19901
+2021,3,Respiratory failure,9225
+2021,4,Respiratory failure,7364
+2021,5,Respiratory failure,6082
+2021,6,Respiratory failure,3260
+2021,7,Respiratory failure,4599
+2021,8,Respiratory failure,20746
+2021,9,Respiratory failure,28126
+2021,10,Respiratory failure,18771
+2021,11,Respiratory failure,13944
+2021,12,Respiratory failure,19422
+2022,1,Respiratory failure,33024
+2022,2,Respiratory failure,19732
+2022,3,Respiratory failure,5668
+2022,4,Respiratory failure,1887
+2022,5,Respiratory failure,2152
+2022,6,Respiratory failure,2752
+2022,7,Respiratory failure,3877
+2022,8,Respiratory failure,4119
+2022,9,Respiratory failure,3199
+2022,10,Respiratory failure,2757
+2022,11,Respiratory failure,2919
+2022,12,Respiratory failure,4499
+2023,1,Respiratory failure,4817
+2023,2,Respiratory failure,2741
+2023,3,Respiratory failure,1143
+2020,1,Respiratory arrest,1
+2020,2,Respiratory arrest,1
+2020,3,Respiratory arrest,136
+2020,4,Respiratory arrest,1452
+2020,5,Respiratory arrest,784
+2020,6,Respiratory arrest,329
+2020,7,Respiratory arrest,593
+2020,8,Respiratory arrest,607
+2020,9,Respiratory arrest,398
+2020,10,Respiratory arrest,496
+2020,11,Respiratory arrest,1144
+2020,12,Respiratory arrest,2211
+2021,1,Respiratory arrest,2384
+2021,2,Respiratory arrest,951
+2021,3,Respiratory arrest,472
+2021,4,Respiratory arrest,327
+2021,5,Respiratory arrest,278
+2021,6,Respiratory arrest,150
+2021,7,Respiratory arrest,218
+2021,8,Respiratory arrest,1085
+2021,9,Respiratory arrest,1192
+2021,10,Respiratory arrest,748
+2021,11,Respiratory arrest,552
+2021,12,Respiratory arrest,880
+2022,1,Respiratory arrest,1656
+2022,2,Respiratory arrest,1034
+2022,3,Respiratory arrest,307
+2022,4,Respiratory arrest,134
+2022,5,Respiratory arrest,154
+2022,6,Respiratory arrest,217
+2022,7,Respiratory arrest,235
+2022,8,Respiratory arrest,304
+2022,9,Respiratory arrest,211
+2022,10,Respiratory arrest,217
+2022,11,Respiratory arrest,220
+2022,12,Respiratory arrest,306
+2023,1,Respiratory arrest,281
+2023,2,Respiratory arrest,157
+2023,3,Respiratory arrest,79
+2020,1,Other diseases of the respiratory system,1
+2020,2,Other diseases of the respiratory system,0
+2020,3,Other diseases of the respiratory system,243
+2020,4,Other diseases of the respiratory system,1988
+2020,5,Other diseases of the respiratory system,1277
+2020,6,Other diseases of the respiratory system,744
+2020,7,Other diseases of the respiratory system,1267
+2020,8,Other diseases of the respiratory system,1283
+2020,9,Other diseases of the respiratory system,958
+2020,10,Other diseases of the respiratory system,1159
+2020,11,Other diseases of the respiratory system,2126
+2020,12,Other diseases of the respiratory system,3906
+2021,1,Other diseases of the respiratory system,4508
+2021,2,Other diseases of the respiratory system,2636
+2021,3,Other diseases of the respiratory system,1502
+2021,4,Other diseases of the respiratory system,1111
+2021,5,Other diseases of the respiratory system,961
+2021,6,Other diseases of the respiratory system,671
+2021,7,Other diseases of the respiratory system,716
+2021,8,Other diseases of the respiratory system,2252
+2021,9,Other diseases of the respiratory system,3466
+2021,10,Other diseases of the respiratory system,2681
+2021,11,Other diseases of the respiratory system,1983
+2021,12,Other diseases of the respiratory system,2483
+2022,1,Other diseases of the respiratory system,4826
+2022,2,Other diseases of the respiratory system,3556
+2022,3,Other diseases of the respiratory system,1510
+2022,4,Other diseases of the respiratory system,645
+2022,5,Other diseases of the respiratory system,691
+2022,6,Other diseases of the respiratory system,857
+2022,7,Other diseases of the respiratory system,1067
+2022,8,Other diseases of the respiratory system,1182
+2022,9,Other diseases of the respiratory system,912
+2022,10,Other diseases of the respiratory system,838
+2022,11,Other diseases of the respiratory system,775
+2022,12,Other diseases of the respiratory system,1119
+2023,1,Other diseases of the respiratory system,1246
+2023,2,Other diseases of the respiratory system,790
+2023,3,Other diseases of the respiratory system,375
+2020,1,Hypertensive diseases,1
+2020,2,Hypertensive diseases,6
+2020,3,Hypertensive diseases,1432
+2020,4,Hypertensive diseases,13400
+2020,5,Hypertensive diseases,8181
+2020,6,Hypertensive diseases,4100
+2020,7,Hypertensive diseases,8182
+2020,8,Hypertensive diseases,6605
+2020,9,Hypertensive diseases,3442
+2020,10,Hypertensive diseases,4788
+2020,11,Hypertensive diseases,10468
+2020,12,Hypertensive diseases,18622
+2021,1,Hypertensive diseases,19529
+2021,2,Hypertensive diseases,8999
+2021,3,Hypertensive diseases,4237
+2021,4,Hypertensive diseases,3279
+2021,5,Hypertensive diseases,2729
+2021,6,Hypertensive diseases,1377
+2021,7,Hypertensive diseases,1859
+2021,8,Hypertensive diseases,7571
+2021,9,Hypertensive diseases,9497
+2021,10,Hypertensive diseases,6283
+2021,11,Hypertensive diseases,5033
+2021,12,Hypertensive diseases,7102
+2022,1,Hypertensive diseases,14921
+2022,2,Hypertensive diseases,8978
+2022,3,Hypertensive diseases,3052
+2022,4,Hypertensive diseases,1351
+2022,5,Hypertensive diseases,1507
+2022,6,Hypertensive diseases,1910
+2022,7,Hypertensive diseases,2691
+2022,8,Hypertensive diseases,2797
+2022,9,Hypertensive diseases,2270
+2022,10,Hypertensive diseases,1899
+2022,11,Hypertensive diseases,1990
+2022,12,Hypertensive diseases,2769
+2023,1,Hypertensive diseases,2866
+2023,2,Hypertensive diseases,1685
+2023,3,Hypertensive diseases,766
+2020,1,Ischemic heart disease,0
+2020,2,Ischemic heart disease,3
+2020,3,Ischemic heart disease,687
+2020,4,Ischemic heart disease,6421
+2020,5,Ischemic heart disease,4034
+2020,6,Ischemic heart disease,2075
+2020,7,Ischemic heart disease,4073
+2020,8,Ischemic heart disease,3523
+2020,9,Ischemic heart disease,2096
+2020,10,Ischemic heart disease,2856
+2020,11,Ischemic heart disease,6395
+2020,12,Ischemic heart disease,11074
+2021,1,Ischemic heart disease,11014
+2021,2,Ischemic heart disease,5164
+2021,3,Ischemic heart disease,2481
+2021,4,Ischemic heart disease,2028
+2021,5,Ischemic heart disease,1480
+2021,6,Ischemic heart disease,773
+2021,7,Ischemic heart disease,1094
+2021,8,Ischemic heart disease,4198
+2021,9,Ischemic heart disease,5463
+2021,10,Ischemic heart disease,3857
+2021,11,Ischemic heart disease,3252
+2021,12,Ischemic heart disease,4475
+2022,1,Ischemic heart disease,9670
+2022,2,Ischemic heart disease,6064
+2022,3,Ischemic heart disease,2023
+2022,4,Ischemic heart disease,922
+2022,5,Ischemic heart disease,1101
+2022,6,Ischemic heart disease,1431
+2022,7,Ischemic heart disease,2038
+2022,8,Ischemic heart disease,2062
+2022,9,Ischemic heart disease,1675
+2022,10,Ischemic heart disease,1425
+2022,11,Ischemic heart disease,1467
+2022,12,Ischemic heart disease,2068
+2023,1,Ischemic heart disease,2070
+2023,2,Ischemic heart disease,1281
+2023,3,Ischemic heart disease,554
+2020,1,Cardiac arrest,2
+2020,2,Cardiac arrest,1
+2020,3,Cardiac arrest,1038
+2020,4,Cardiac arrest,9233
+2020,5,Cardiac arrest,4374
+2020,6,Cardiac arrest,2116
+2020,7,Cardiac arrest,3331
+2020,8,Cardiac arrest,3372
+2020,9,Cardiac arrest,2099
+2020,10,Cardiac arrest,2295
+2020,11,Cardiac arrest,4767
+2020,12,Cardiac arrest,11237
+2021,1,Cardiac arrest,14245
+2021,2,Cardiac arrest,6803
+2021,3,Cardiac arrest,3239
+2021,4,Cardiac arrest,2395
+2021,5,Cardiac arrest,1697
+2021,6,Cardiac arrest,934
+2021,7,Cardiac arrest,1372
+2021,8,Cardiac arrest,5794
+2021,9,Cardiac arrest,7175
+2021,10,Cardiac arrest,4479
+2021,11,Cardiac arrest,3229
+2021,12,Cardiac arrest,4953
+2022,1,Cardiac arrest,10684
+2022,2,Cardiac arrest,5847
+2022,3,Cardiac arrest,1708
+2022,4,Cardiac arrest,733
+2022,5,Cardiac arrest,937
+2022,6,Cardiac arrest,1131
+2022,7,Cardiac arrest,1623
+2022,8,Cardiac arrest,1597
+2022,9,Cardiac arrest,1254
+2022,10,Cardiac arrest,1061
+2022,11,Cardiac arrest,1157
+2022,12,Cardiac arrest,1730
+2023,1,Cardiac arrest,1681
+2023,2,Cardiac arrest,976
+2023,3,Cardiac arrest,384
+2020,1,Cardiac arrhythmia,1
+2020,2,Cardiac arrhythmia,0
+2020,3,Cardiac arrhythmia,339
+2020,4,Cardiac arrhythmia,3416
+2020,5,Cardiac arrhythmia,2433
+2020,6,Cardiac arrhythmia,1232
+2020,7,Cardiac arrhythmia,2165
+2020,8,Cardiac arrhythmia,2175
+2020,9,Cardiac arrhythmia,1431
+2020,10,Cardiac arrhythmia,2024
+2020,11,Cardiac arrhythmia,4492
+2020,12,Cardiac arrhythmia,7975
+2021,1,Cardiac arrhythmia,8391
+2021,2,Cardiac arrhythmia,3912
+2021,3,Cardiac arrhythmia,1907
+2021,4,Cardiac arrhythmia,1436
+2021,5,Cardiac arrhythmia,1142
+2021,6,Cardiac arrhythmia,633
+2021,7,Cardiac arrhythmia,758
+2021,8,Cardiac arrhythmia,3068
+2021,9,Cardiac arrhythmia,4276
+2021,10,Cardiac arrhythmia,3158
+2021,11,Cardiac arrhythmia,2575
+2021,12,Cardiac arrhythmia,3550
+2022,1,Cardiac arrhythmia,7225
+2022,2,Cardiac arrhythmia,4821
+2022,3,Cardiac arrhythmia,1683
+2022,4,Cardiac arrhythmia,766
+2022,5,Cardiac arrhythmia,816
+2022,6,Cardiac arrhythmia,1073
+2022,7,Cardiac arrhythmia,1543
+2022,8,Cardiac arrhythmia,1471
+2022,9,Cardiac arrhythmia,1255
+2022,10,Cardiac arrhythmia,1112
+2022,11,Cardiac arrhythmia,1244
+2022,12,Cardiac arrhythmia,1623
+2023,1,Cardiac arrhythmia,1778
+2023,2,Cardiac arrhythmia,1055
+2023,3,Cardiac arrhythmia,462
+2020,1,Heart failure,1
+2020,2,Heart failure,0
+2020,3,Heart failure,393
+2020,4,Heart failure,3741
+2020,5,Heart failure,2829
+2020,6,Heart failure,1375
+2020,7,Heart failure,2131
+2020,8,Heart failure,2120
+2020,9,Heart failure,1499
+2020,10,Heart failure,2297
+2020,11,Heart failure,4771
+2020,12,Heart failure,8125
+2021,1,Heart failure,8143
+2021,2,Heart failure,3770
+2021,3,Heart failure,1956
+2021,4,Heart failure,1478
+2021,5,Heart failure,1191
+2021,6,Heart failure,657
+2021,7,Heart failure,855
+2021,8,Heart failure,2862
+2021,9,Heart failure,3528
+2021,10,Heart failure,2823
+2021,11,Heart failure,2325
+2021,12,Heart failure,3127
+2022,1,Heart failure,7410
+2022,2,Heart failure,4988
+2022,3,Heart failure,1914
+2022,4,Heart failure,899
+2022,5,Heart failure,1030
+2022,6,Heart failure,1294
+2022,7,Heart failure,1838
+2022,8,Heart failure,1950
+2022,9,Heart failure,1591
+2022,10,Heart failure,1440
+2022,11,Heart failure,1429
+2022,12,Heart failure,2007
+2023,1,Heart failure,2182
+2023,2,Heart failure,1363
+2023,3,Heart failure,592
+2020,1,Cerebrovascular diseases,1
+2020,2,Cerebrovascular diseases,1
+2020,3,Cerebrovascular diseases,139
+2020,4,Cerebrovascular diseases,2618
+2020,5,Cerebrovascular diseases,2142
+2020,6,Cerebrovascular diseases,1093
+2020,7,Cerebrovascular diseases,1496
+2020,8,Cerebrovascular diseases,1617
+2020,9,Cerebrovascular diseases,1083
+2020,10,Cerebrovascular diseases,1371
+2020,11,Cerebrovascular diseases,2859
+2020,12,Cerebrovascular diseases,4952
+2021,1,Cerebrovascular diseases,5115
+2021,2,Cerebrovascular diseases,2451
+2021,3,Cerebrovascular diseases,1232
+2021,4,Cerebrovascular diseases,871
+2021,5,Cerebrovascular diseases,780
+2021,6,Cerebrovascular diseases,440
+2021,7,Cerebrovascular diseases,502
+2021,8,Cerebrovascular diseases,1773
+2021,9,Cerebrovascular diseases,2416
+2021,10,Cerebrovascular diseases,1806
+2021,11,Cerebrovascular diseases,1412
+2021,12,Cerebrovascular diseases,1930
+2022,1,Cerebrovascular diseases,4364
+2022,2,Cerebrovascular diseases,3256
+2022,3,Cerebrovascular diseases,1158
+2022,4,Cerebrovascular diseases,594
+2022,5,Cerebrovascular diseases,660
+2022,6,Cerebrovascular diseases,809
+2022,7,Cerebrovascular diseases,1163
+2022,8,Cerebrovascular diseases,1183
+2022,9,Cerebrovascular diseases,935
+2022,10,Cerebrovascular diseases,842
+2022,11,Cerebrovascular diseases,859
+2022,12,Cerebrovascular diseases,1090
+2023,1,Cerebrovascular diseases,1219
+2023,2,Cerebrovascular diseases,786
+2023,3,Cerebrovascular diseases,295
+2020,1,Other diseases of the circulatory system,3
+2020,2,Other diseases of the circulatory system,3
+2020,3,Other diseases of the circulatory system,356
+2020,4,Other diseases of the circulatory system,2815
+2020,5,Other diseases of the circulatory system,2121
+2020,6,Other diseases of the circulatory system,1104
+2020,7,Other diseases of the circulatory system,1791
+2020,8,Other diseases of the circulatory system,1808
+2020,9,Other diseases of the circulatory system,1290
+2020,10,Other diseases of the circulatory system,1680
+2020,11,Other diseases of the circulatory system,3637
+2020,12,Other diseases of the circulatory system,6558
+2021,1,Other diseases of the circulatory system,7253
+2021,2,Other diseases of the circulatory system,3711
+2021,3,Other diseases of the circulatory system,1946
+2021,4,Other diseases of the circulatory system,1608
+2021,5,Other diseases of the circulatory system,1378
+2021,6,Other diseases of the circulatory system,787
+2021,7,Other diseases of the circulatory system,957
+2021,8,Other diseases of the circulatory system,3321
+2021,9,Other diseases of the circulatory system,4875
+2021,10,Other diseases of the circulatory system,3593
+2021,11,Other diseases of the circulatory system,2878
+2021,12,Other diseases of the circulatory system,3849
+2022,1,Other diseases of the circulatory system,7535
+2022,2,Other diseases of the circulatory system,4990
+2022,3,Other diseases of the circulatory system,1893
+2022,4,Other diseases of the circulatory system,801
+2022,5,Other diseases of the circulatory system,917
+2022,6,Other diseases of the circulatory system,1105
+2022,7,Other diseases of the circulatory system,1553
+2022,8,Other diseases of the circulatory system,1608
+2022,9,Other diseases of the circulatory system,1318
+2022,10,Other diseases of the circulatory system,1116
+2022,11,Other diseases of the circulatory system,1147
+2022,12,Other diseases of the circulatory system,1593
+2023,1,Other diseases of the circulatory system,1641
+2023,2,Other diseases of the circulatory system,1125
+2023,3,Other diseases of the circulatory system,414
+2020,1,Sepsis,0
+2020,2,Sepsis,2
+2020,3,Sepsis,668
+2020,4,Sepsis,4724
+2020,5,Sepsis,3434
+2020,6,Sepsis,1839
+2020,7,Sepsis,3208
+2020,8,Sepsis,3573
+2020,9,Sepsis,2304
+2020,10,Sepsis,2527
+2020,11,Sepsis,4678
+2020,12,Sepsis,8805
+2021,1,Sepsis,10224
+2021,2,Sepsis,5544
+2021,3,Sepsis,2872
+2021,4,Sepsis,2048
+2021,5,Sepsis,1833
+2021,6,Sepsis,976
+2021,7,Sepsis,1310
+2021,8,Sepsis,5324
+2021,9,Sepsis,7138
+2021,10,Sepsis,5041
+2021,11,Sepsis,3359
+2021,12,Sepsis,4477
+2022,1,Sepsis,8944
+2022,2,Sepsis,5998
+2022,3,Sepsis,1837
+2022,4,Sepsis,630
+2022,5,Sepsis,699
+2022,6,Sepsis,979
+2022,7,Sepsis,1453
+2022,8,Sepsis,1537
+2022,9,Sepsis,1217
+2022,10,Sepsis,1017
+2022,11,Sepsis,1066
+2022,12,Sepsis,1664
+2023,1,Sepsis,1779
+2023,2,Sepsis,973
+2023,3,Sepsis,379
+2020,1,Malignant neoplasms,0
+2020,2,Malignant neoplasms,1
+2020,3,Malignant neoplasms,313
+2020,4,Malignant neoplasms,2416
+2020,5,Malignant neoplasms,1612
+2020,6,Malignant neoplasms,867
+2020,7,Malignant neoplasms,1367
+2020,8,Malignant neoplasms,1280
+2020,9,Malignant neoplasms,912
+2020,10,Malignant neoplasms,1179
+2020,11,Malignant neoplasms,2716
+2020,12,Malignant neoplasms,4743
+2021,1,Malignant neoplasms,5038
+2021,2,Malignant neoplasms,2676
+2021,3,Malignant neoplasms,1416
+2021,4,Malignant neoplasms,1214
+2021,5,Malignant neoplasms,985
+2021,6,Malignant neoplasms,560
+2021,7,Malignant neoplasms,629
+2021,8,Malignant neoplasms,1990
+2021,9,Malignant neoplasms,2654
+2021,10,Malignant neoplasms,2023
+2021,11,Malignant neoplasms,1746
+2021,12,Malignant neoplasms,2408
+2022,1,Malignant neoplasms,6002
+2022,2,Malignant neoplasms,4553
+2022,3,Malignant neoplasms,1749
+2022,4,Malignant neoplasms,836
+2022,5,Malignant neoplasms,992
+2022,6,Malignant neoplasms,1202
+2022,7,Malignant neoplasms,1660
+2022,8,Malignant neoplasms,1786
+2022,9,Malignant neoplasms,1433
+2022,10,Malignant neoplasms,1257
+2022,11,Malignant neoplasms,1256
+2022,12,Malignant neoplasms,1647
+2023,1,Malignant neoplasms,1766
+2023,2,Malignant neoplasms,1115
+2023,3,Malignant neoplasms,485
+2020,1,Diabetes,2
+2020,2,Diabetes,5
+2020,3,Diabetes,1046
+2020,4,Diabetes,9463
+2020,5,Diabetes,5650
+2020,6,Diabetes,3141
+2020,7,Diabetes,6474
+2020,8,Diabetes,5576
+2020,9,Diabetes,3064
+2020,10,Diabetes,4047
+2020,11,Diabetes,8662
+2020,12,Diabetes,15481
+2021,1,Diabetes,16657
+2021,2,Diabetes,7702
+2021,3,Diabetes,3588
+2021,4,Diabetes,2775
+2021,5,Diabetes,2225
+2021,6,Diabetes,1186
+2021,7,Diabetes,1505
+2021,8,Diabetes,6740
+2021,9,Diabetes,8566
+2021,10,Diabetes,5723
+2021,11,Diabetes,4417
+2021,12,Diabetes,6073
+2022,1,Diabetes,11624
+2022,2,Diabetes,7048
+2022,3,Diabetes,2328
+2022,4,Diabetes,917
+2022,5,Diabetes,875
+2022,6,Diabetes,1109
+2022,7,Diabetes,1645
+2022,8,Diabetes,1693
+2022,9,Diabetes,1407
+2022,10,Diabetes,1098
+2022,11,Diabetes,1198
+2022,12,Diabetes,1650
+2023,1,Diabetes,1779
+2023,2,Diabetes,1041
+2023,3,Diabetes,442
+2020,1,Obesity,1
+2020,2,Obesity,2
+2020,3,Obesity,260
+2020,4,Obesity,1754
+2020,5,Obesity,1077
+2020,6,Obesity,741
+2020,7,Obesity,1930
+2020,8,Obesity,1462
+2020,9,Obesity,804
+2020,10,Obesity,1084
+2020,11,Obesity,2188
+2020,12,Obesity,3789
+2021,1,Obesity,4222
+2021,2,Obesity,1969
+2021,3,Obesity,1142
+2021,4,Obesity,1130
+2021,5,Obesity,1007
+2021,6,Obesity,477
+2021,7,Obesity,904
+2021,8,Obesity,4007
+2021,9,Obesity,4799
+2021,10,Obesity,2926
+2021,11,Obesity,2292
+2021,12,Obesity,3075
+2022,1,Obesity,4459
+2022,2,Obesity,2067
+2022,3,Obesity,558
+2022,4,Obesity,173
+2022,5,Obesity,201
+2022,6,Obesity,229
+2022,7,Obesity,338
+2022,8,Obesity,311
+2022,9,Obesity,214
+2022,10,Obesity,184
+2022,11,Obesity,224
+2022,12,Obesity,313
+2023,1,Obesity,248
+2023,2,Obesity,159
+2023,3,Obesity,63
+2020,1,Alzheimer disease,0
+2020,2,Alzheimer disease,0
+2020,3,Alzheimer disease,96
+2020,4,Alzheimer disease,1789
+2020,5,Alzheimer disease,1635
+2020,6,Alzheimer disease,854
+2020,7,Alzheimer disease,1183
+2020,8,Alzheimer disease,1248
+2020,9,Alzheimer disease,885
+2020,10,Alzheimer disease,1252
+2020,11,Alzheimer disease,2501
+2020,12,Alzheimer disease,4060
+2021,1,Alzheimer disease,3522
+2021,2,Alzheimer disease,1333
+2021,3,Alzheimer disease,480
+2021,4,Alzheimer disease,313
+2021,5,Alzheimer disease,239
+2021,6,Alzheimer disease,166
+2021,7,Alzheimer disease,173
+2021,8,Alzheimer disease,552
+2021,9,Alzheimer disease,764
+2021,10,Alzheimer disease,607
+2021,11,Alzheimer disease,550
+2021,12,Alzheimer disease,631
+2022,1,Alzheimer disease,1839
+2022,2,Alzheimer disease,1346
+2022,3,Alzheimer disease,508
+2022,4,Alzheimer disease,265
+2022,5,Alzheimer disease,356
+2022,6,Alzheimer disease,443
+2022,7,Alzheimer disease,647
+2022,8,Alzheimer disease,638
+2022,9,Alzheimer disease,517
+2022,10,Alzheimer disease,502
+2022,11,Alzheimer disease,475
+2022,12,Alzheimer disease,634
+2023,1,Alzheimer disease,643
+2023,2,Alzheimer disease,391
+2023,3,Alzheimer disease,186
+2020,1,Vascular and unspecified dementia,0
+2020,2,Vascular and unspecified dementia,1
+2020,3,Vascular and unspecified dementia,276
+2020,4,Vascular and unspecified dementia,6827
+2020,5,Vascular and unspecified dementia,5592
+2020,6,Vascular and unspecified dementia,2483
+2020,7,Vascular and unspecified dementia,3276
+2020,8,Vascular and unspecified dementia,3222
+2020,9,Vascular and unspecified dementia,1937
+2020,10,Vascular and unspecified dementia,2776
+2020,11,Vascular and unspecified dementia,5951
+2020,12,Vascular and unspecified dementia,10358
+2021,1,Vascular and unspecified dementia,8888
+2021,2,Vascular and unspecified dementia,3250
+2021,3,Vascular and unspecified dementia,1304
+2021,4,Vascular and unspecified dementia,833
+2021,5,Vascular and unspecified dementia,654
+2021,6,Vascular and unspecified dementia,383
+2021,7,Vascular and unspecified dementia,462
+2021,8,Vascular and unspecified dementia,1541
+2021,9,Vascular and unspecified dementia,2089
+2021,10,Vascular and unspecified dementia,1674
+2021,11,Vascular and unspecified dementia,1457
+2021,12,Vascular and unspecified dementia,1676
+2022,1,Vascular and unspecified dementia,5093
+2022,2,Vascular and unspecified dementia,3515
+2022,3,Vascular and unspecified dementia,1227
+2022,4,Vascular and unspecified dementia,630
+2022,5,Vascular and unspecified dementia,874
+2022,6,Vascular and unspecified dementia,1066
+2022,7,Vascular and unspecified dementia,1452
+2022,8,Vascular and unspecified dementia,1471
+2022,9,Vascular and unspecified dementia,1250
+2022,10,Vascular and unspecified dementia,1093
+2022,11,Vascular and unspecified dementia,1127
+2022,12,Vascular and unspecified dementia,1487
+2023,1,Vascular and unspecified dementia,1609
+2023,2,Vascular and unspecified dementia,968
+2023,3,Vascular and unspecified dementia,469
+2020,1,Renal failure,0
+2020,2,Renal failure,0
+2020,3,Renal failure,535
+2020,4,Renal failure,4872
+2020,5,Renal failure,3198
+2020,6,Renal failure,1698
+2020,7,Renal failure,2977
+2020,8,Renal failure,3136
+2020,9,Renal failure,1974
+2020,10,Renal failure,2493
+2020,11,Renal failure,5064
+2020,12,Renal failure,9677
+2021,1,Renal failure,12296
+2021,2,Renal failure,5986
+2021,3,Renal failure,2741
+2021,4,Renal failure,2170
+2021,5,Renal failure,1806
+2021,6,Renal failure,970
+2021,7,Renal failure,1264
+2021,8,Renal failure,5561
+2021,9,Renal failure,7799
+2021,10,Renal failure,5467
+2021,11,Renal failure,4060
+2021,12,Renal failure,5441
+2022,1,Renal failure,11545
+2022,2,Renal failure,7382
+2022,3,Renal failure,2069
+2022,4,Renal failure,724
+2022,5,Renal failure,819
+2022,6,Renal failure,1158
+2022,7,Renal failure,1630
+2022,8,Renal failure,1656
+2022,9,Renal failure,1263
+2022,10,Renal failure,1093
+2022,11,Renal failure,1189
+2022,12,Renal failure,1709
+2023,1,Renal failure,1886
+2023,2,Renal failure,1089
+2023,3,Renal failure,422
+2020,1,"Intentional and unintentional injury, poisoning, and other adverse events",0
+2020,2,"Intentional and unintentional injury, poisoning, and other adverse events",2
+2020,3,"Intentional and unintentional injury, poisoning, and other adverse events",75
+2020,4,"Intentional and unintentional injury, poisoning, and other adverse events",698
+2020,5,"Intentional and unintentional injury, poisoning, and other adverse events",602
+2020,6,"Intentional and unintentional injury, poisoning, and other adverse events",358
+2020,7,"Intentional and unintentional injury, poisoning, and other adverse events",613
+2020,8,"Intentional and unintentional injury, poisoning, and other adverse events",505
+2020,9,"Intentional and unintentional injury, poisoning, and other adverse events",386
+2020,10,"Intentional and unintentional injury, poisoning, and other adverse events",532
+2020,11,"Intentional and unintentional injury, poisoning, and other adverse events",963
+2020,12,"Intentional and unintentional injury, poisoning, and other adverse events",1942
+2021,1,"Intentional and unintentional injury, poisoning, and other adverse events",2492
+2021,2,"Intentional and unintentional injury, poisoning, and other adverse events",1344
+2021,3,"Intentional and unintentional injury, poisoning, and other adverse events",723
+2021,4,"Intentional and unintentional injury, poisoning, and other adverse events",579
+2021,5,"Intentional and unintentional injury, poisoning, and other adverse events",495
+2021,6,"Intentional and unintentional injury, poisoning, and other adverse events",275
+2021,7,"Intentional and unintentional injury, poisoning, and other adverse events",344
+2021,8,"Intentional and unintentional injury, poisoning, and other adverse events",1157
+2021,9,"Intentional and unintentional injury, poisoning, and other adverse events",1420
+2021,10,"Intentional and unintentional injury, poisoning, and other adverse events",1028
+2021,11,"Intentional and unintentional injury, poisoning, and other adverse events",937
+2021,12,"Intentional and unintentional injury, poisoning, and other adverse events",1263
+2022,1,"Intentional and unintentional injury, poisoning, and other adverse events",2937
+2022,2,"Intentional and unintentional injury, poisoning, and other adverse events",2061
+2022,3,"Intentional and unintentional injury, poisoning, and other adverse events",745
+2022,4,"Intentional and unintentional injury, poisoning, and other adverse events",346
+2022,5,"Intentional and unintentional injury, poisoning, and other adverse events",424
+2022,6,"Intentional and unintentional injury, poisoning, and other adverse events",466
+2022,7,"Intentional and unintentional injury, poisoning, and other adverse events",647
+2022,8,"Intentional and unintentional injury, poisoning, and other adverse events",642
+2022,9,"Intentional and unintentional injury, poisoning, and other adverse events",461
+2022,10,"Intentional and unintentional injury, poisoning, and other adverse events",420
+2022,11,"Intentional and unintentional injury, poisoning, and other adverse events",436
+2022,12,"Intentional and unintentional injury, poisoning, and other adverse events",593
+2023,1,"Intentional and unintentional injury, poisoning, and other adverse events",551
+2023,2,"Intentional and unintentional injury, poisoning, and other adverse events",301
+2023,3,"Intentional and unintentional injury, poisoning, and other adverse events",24
+2020,1,All other conditions and causes (residual),2
+2020,2,All other conditions and causes (residual),4
+2020,3,All other conditions and causes (residual),1956
+2020,4,All other conditions and causes (residual),18897
+2020,5,All other conditions and causes (residual),13577
+2020,6,All other conditions and causes (residual),6891
+2020,7,All other conditions and causes (residual),11496
+2020,8,All other conditions and causes (residual),11638
+2020,9,All other conditions and causes (residual),7739
+2020,10,All other conditions and causes (residual),10360
+2020,11,All other conditions and causes (residual),21617
+2020,12,All other conditions and causes (residual),38388
+2021,1,All other conditions and causes (residual),42296
+2021,2,All other conditions and causes (residual),20292
+2021,3,All other conditions and causes (residual),10129
+2021,4,All other conditions and causes (residual),8039
+2021,5,All other conditions and causes (residual),6621
+2021,6,All other conditions and causes (residual),3756
+2021,7,All other conditions and causes (residual),4704
+2021,8,All other conditions and causes (residual),18358
+2021,9,All other conditions and causes (residual),25152
+2021,10,All other conditions and causes (residual),18250
+2021,11,All other conditions and causes (residual),14000
+2021,12,All other conditions and causes (residual),19259
+2022,1,All other conditions and causes (residual),34847
+2022,2,All other conditions and causes (residual),23252
+2022,3,All other conditions and causes (residual),8027
+2022,4,All other conditions and causes (residual),3365
+2022,5,All other conditions and causes (residual),4024
+2022,6,All other conditions and causes (residual),4922
+2022,7,All other conditions and causes (residual),6839
+2022,8,All other conditions and causes (residual),7305
+2022,9,All other conditions and causes (residual),5966
+2022,10,All other conditions and causes (residual),5093
+2022,11,All other conditions and causes (residual),5266
+2022,12,All other conditions and causes (residual),7387
+2023,1,All other conditions and causes (residual),7763
+2023,2,All other conditions and causes (residual),4574
+2023,3,All other conditions and causes (residual),1986
+2020,1,COVID-19,5
+2020,2,COVID-19,19
+2020,3,COVID-19,7160
+2020,4,COVID-19,65477
+2020,5,COVID-19,38301
+2020,6,COVID-19,18005
+2020,7,COVID-19,31113
+2020,8,COVID-19,29884
+2020,9,COVID-19,19138
+2020,10,COVID-19,24903
+2020,11,COVID-19,53208
+2020,12,COVID-19,98080
+2021,1,COVID-19,105566
+2021,2,COVID-19,48570
+2021,3,COVID-19,23268
+2021,4,COVID-19,18806
+2021,5,COVID-19,14989
+2021,6,COVID-19,8024
+2021,7,COVID-19,11222
+2021,8,COVID-19,48821
+2021,9,COVID-19,63446
+2021,10,COVID-19,42607
+2021,11,COVID-19,32329
+2021,12,COVID-19,45626
+2022,1,COVID-19,83927
+2022,2,COVID-19,50201
+2022,3,COVID-19,15601
+2022,4,COVID-19,6257
+2022,5,COVID-19,7622
+2022,6,COVID-19,9512
+2022,7,COVID-19,13354
+2022,8,COVID-19,14089
+2022,9,COVID-19,11082
+2022,10,COVID-19,9664
+2022,11,COVID-19,9935
+2022,12,COVID-19,14188
+2023,1,COVID-19,14737
+2023,2,COVID-19,8614
+2023,3,COVID-19,3715

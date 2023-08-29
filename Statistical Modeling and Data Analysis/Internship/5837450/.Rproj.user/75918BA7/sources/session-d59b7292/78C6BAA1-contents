@@ -1,0 +1,117 @@
+---
+title: "Question 1"
+author: "Kevin White"
+date: "2023-04-20"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(readr)
+library(knitr)
+library(ggplot2)
+
+
+AllAgesByYear <- read_csv("AllAgesByYear.csv")
+AllAgesByMonth <- read_csv("AllAgesByMonth.csv")
+
+
+```
+
+## Question:
+
+Do the major contributors to Covid-19 Death change over time?
+
+The Code Bellow Creates a matrix out of the existing data set
+
+```{r}
+myMatrix <- AllAgesByYear %>%
+    pivot_wider(names_from = Condition,
+                values_from = "COVID-19 Deaths") %>%
+    column_to_rownames(var = 'Year')
+
+myMatrix
+
+
+myMatrixMonth <- AllAgesByMonth %>%
+    pivot_wider(id_cols = c("Year", "Month"),
+                names_from = Condition,
+                values_from = "COVID-19 Deaths") %>%
+    unite("Year_Month", c("Year", "Month"), sep = "-") %>%
+    column_to_rownames(var = 'Year_Month')
+
+
+myMatrixMonth
+
+```
+
+```{r}
+# Convert the contingency table into a data frame for plotting
+plotdata <- myMatrix %>%
+    as.data.frame() %>%
+    rownames_to_column(var = "Year") %>%
+    pivot_longer(cols = -Year,
+                 names_to = "Condition",
+                 values_to = "COVID.19.Deaths")
+
+# Create a bar chart for each year
+p <- ggplot(plotdata, aes(x = Condition, y = COVID.19.Deaths, fill = Condition)) +
+    geom_col() +
+    facet_wrap(~Year) +
+    theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+# Display the plot
+p
+```
+
+```{r}
+# Convert the contingency table into a data frame for plotting (excluding COVID-19)
+plotdata <- myMatrix[,!(colnames(myMatrix) %in% c("COVID-19"))] %>%
+    as.data.frame() %>%
+    rownames_to_column(var = "Year") %>%
+    pivot_longer(cols = -Year,
+                 names_to = "Condition",
+                 values_to = "COVID.19.Deaths")
+
+# Create a bar chart for each year (excluding COVID-19)
+p <- ggplot(plotdata, aes(x = Condition, y = COVID.19.Deaths, fill = Condition)) +
+    geom_col() +
+    facet_wrap(~Year) +
+    theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+# Display the plot
+p
+```
+```{r}
+# Calculate the total number of deaths for each year
+total_deathsYears <- rowSums(myMatrix)
+
+# Convert the row names of myMatrix (which represent the years) to a numeric vector
+years <- as.numeric(rownames(myMatrix))
+
+# Create a line plot of the total number of deaths over time
+plot(years, total_deathsYears, type = "l", xlab = "Year", ylab = "Total COVID-19 Deaths", xlim = c(2020, 2023), xaxt = "n")
+
+# Add custom tick marks and labels to the x-axis
+axis(side = 1, at = 2020:2023, labels = 2020:2023)
+
+```
+
+```{r}
+# Calculate the total number of deaths for each year and month
+total_deathsMonth <- rowSums(myMatrixMonth)
+
+# Convert the row names of myMatrixMonth (which represent the years and months) to a Date vector
+dates <- as.Date(paste0(rownames(myMatrixMonth), "-01"), format = "%Y-%m-%d")
+
+# Set the scipen option to a large positive value to avoid scientific notation
+options(scipen = 999)
+
+# Create a line plot of the total number of deaths over time
+plot(dates, total_deathsMonth, type = "l", xlab = "Year-Month", ylab = "Total COVID-19 Deaths", xaxt = "n")
+
+# Add custom tick marks and labels to the x-axis
+axis(side = 1, at = dates, labels = format(dates, "%b %Y"), cex.axis = 0.7)
+
+
+```

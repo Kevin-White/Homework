@@ -1,0 +1,52 @@
+---
+title: "Q3Testing"
+author: "Kevin White"
+date: "2023-04-25"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(readr)
+library(knitr)
+library(ggplot2)
+
+AllAgesByState <- read_csv("AllAgesByState.csv")
+
+```
+
+```{r}
+# Assuming your data is in a data frame called 'data'
+state_condition_matrix <- AllAgesByState %>%
+    pivot_wider(names_from = 'Condition',
+                values_from = "COVID-19 Deaths") %>%
+    column_to_rownames(var = 'State')
+
+state_condition_matrix
+
+```
+```{r}
+## Create a data frame for plotting
+plot_data <- data.frame(State = rownames(state_condition_matrix),
+                        state_condition_matrix)
+
+# Reshape the data to long format
+plot_data_long <- pivot_longer(plot_data,
+                               cols = -State,
+                               names_to = "Condition",
+                               values_to = "Deaths")
+
+# Get the top 3 conditions for each state
+top_conditions_by_state <- plot_data_long %>%
+    group_by(State) %>%
+    top_n(3, Deaths) %>%
+    ungroup()
+
+# Create the plot
+ggplot(top_conditions_by_state, aes(x = State, y = Deaths, fill = Condition)) +
+    geom_col(position = "dodge") +
+    theme(axis.text.x = element_text(angle = 90, hjust = 1)) +
+    labs(title = "Top 3 Conditions for COVID-19 Deaths by State",
+         x = "State",
+         y = "Deaths")
+```

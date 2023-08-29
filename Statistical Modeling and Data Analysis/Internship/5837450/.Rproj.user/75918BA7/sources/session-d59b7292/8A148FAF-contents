@@ -1,0 +1,125 @@
+---
+title: "Question 1"
+author: "Kevin White"
+date: "2023-04-20"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(readr)
+library(knitr)
+library(ggplot2)
+
+
+AllAgesByYear <- read_csv("AllAgesByYear.csv")
+
+```
+
+## Question:
+
+Do the major contributors to Covid-19 Death change over time?
+
+The Code Bellow Creates a matrix out of the existing data set
+
+```{r}
+myMatrix <- AllAgesByYear %>%
+    pivot_wider(names_from = Condition,
+                values_from = "COVID-19 Deaths") %>%
+    column_to_rownames(var = 'Year')
+
+myMatrix
+
+```
+
+The code bellow runs the Chi-Squared test on the matrix "myMatrix" created above
+
+```{r}
+# Perform the Chi-Squared test
+chisq.test(myMatrix)
+```
+
+```{r}
+# Find the top 3 conditions with the highest total number of deaths for each year
+top3_conditions <- t(apply(myMatrix, 1, function(x) names(sort(x, decreasing = TRUE)[1:3])))
+
+# Print the results
+cat("The top 3 preexisting  conditions with the highest total number of deaths for each year:\n\n")
+for (i in seq_along(rownames(myMatrix))) {
+    cat(rownames(myMatrix)[i], ":", paste(top3_conditions[i,], collapse = ", "), "\n")
+}
+```
+
+```{r}
+# Find the top 3 conditions with the highest total number of deaths for each year (excluding COVID-19)
+top3_conditions <- t(apply(myMatrix[,!(colnames(myMatrix) %in% c("COVID-19"))], 1, function(x) names(sort(x, decreasing = TRUE)[1:3])))
+
+# Print the results
+cat("The top 3 preexisting  conditions with the highest total number of deaths for each year (excluding COVID-19):\n\n")
+for (i in seq_along(rownames(myMatrix))) {
+    cat(rownames(myMatrix)[i], ":", paste(top3_conditions[i,], collapse = ", "), "\n")
+}
+```
+
+
+```{r}
+# Calculate the year-to-year percentage change for each condition
+condition_pct_change <- apply(myMatrix, 2, function(x) 100 * diff(x) / x[-length(x)])
+
+# Find the top 3 conditions with the greatest increase for each year
+top3_increase_conditions <- t(apply(condition_pct_change, 1, function(x) names(sort(x, decreasing = TRUE)[1:3])))
+
+# Find the top 3 conditions with the greatest decrease for each year
+top3_decrease_conditions <- t(apply(condition_pct_change, 1, function(x) names(sort(x)[1:3])))
+
+# Print the results
+cat("The top 3 conditions with the greatest increase in the number of COVID-19 deaths for each year:\n\n")
+for (i in seq_along(rownames(condition_pct_change))) {
+    cat(rownames(condition_pct_change)[i], ":", paste(top3_increase_conditions[i,], collapse = ", "), "\n")
+}
+cat("\nThe top 3 conditions with the greatest decrease in the number of COVID-19 deaths for each year:\n\n")
+for (i in seq_along(rownames(condition_pct_change))) {
+    cat(rownames(condition_pct_change)[i], ":", paste(top3_decrease_conditions[i,], collapse = ", "), "\n")
+}
+
+```
+
+```{r}
+# Convert the contingency table into a data frame for plotting
+plotdata <- myMatrix %>%
+    as.data.frame() %>%
+    rownames_to_column(var = "Year") %>%
+    pivot_longer(cols = -Year,
+                 names_to = "Condition",
+                 values_to = "COVID.19.Deaths")
+
+# Create a bar chart for each year
+p <- ggplot(plotdata, aes(x = Condition, y = COVID.19.Deaths, fill = Condition)) +
+    geom_col() +
+    facet_wrap(~Year) +
+    theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+# Display the plot
+p
+```
+
+
+
+```{r}
+# Convert the contingency table into a data frame for plotting (excluding COVID-19)
+plotdata <- mytable[,!(colnames(mytable) %in% c("COVID-19"))] %>%
+    as.data.frame() %>%
+    rownames_to_column(var = "Year") %>%
+    pivot_longer(cols = -Year,
+                 names_to = "Condition",
+                 values_to = "COVID.19.Deaths")
+
+# Create a bar chart for each year (excluding COVID-19)
+p <- ggplot(plotdata, aes(x = Condition, y = COVID.19.Deaths, fill = Condition)) +
+    geom_col() +
+    facet_wrap(~Year) +
+    theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+# Display the plot
+p
+```

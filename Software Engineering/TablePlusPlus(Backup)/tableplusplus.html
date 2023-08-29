@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title> Table Plus Plus</title>
+  <script src="JavaScript/main.js"></script>
+</head>
+<style>
+  table,
+  th,
+  td {
+    border: 1px solid black;
+  }
+
+</style>
+
+<body>
+
+  <input type="file" id="fileUpload" />
+  <input type="button" id="upload" value="Upload" onclick="Upload()" />
+  <input type="button" id="test" value="test" onclick="test()" />
+  
+  <hr />
+
+  <input type="text" id="myInput" onkeyup='tableSearch()' placeholder="Search...">
+  <input type="button" id="AddItem" value="+" onclick="ToggleForm()">
+  <div id="FormDiv">
+  </div>
+  <div id="TableDiv">
+  </div>
+  <script>
+    function test() {
+      alert(document.getElementById("fileUpload").value);
+    }
+  </script>
+</body>
+
+</html>

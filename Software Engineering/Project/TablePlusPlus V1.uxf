@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.0.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>330</x>
+      <y>100</y>
+      <w>210</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>Remove Row
+--
+-Rows: Strings
+--
+GetSelected(): Strings
+DeleteSelected(): Void
+SelectToggle(): Void
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>330</x>
+      <y>270</y>
+      <w>210</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>Add Row
+--
+-InputList: String
+-DataLength: Integer
+--
+MakeInputUI(): Void
+getInputLength(): Integer
+GetInputs(Data): String
+SetInput(): Void
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1040</x>
+      <y>280</y>
+      <w>230</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>Remove Column
+--
+CollumName: String
+CollumLength: Integer 
+--
+GetSelected(): String
+DeleteSelected(): Void
+SelectToggle(): Void
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>720</x>
+      <y>10</y>
+      <w>210</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>Edit Data
+--
+-Rows: String
+-DataLength: Integer
+-UserEdits: String 
+--
+GetSelectedEdit(): Strings
+SelectToggle(): Void
+GetInputs(Data): String
+SetInput(): Void
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>330</x>
+      <y>460</y>
+      <w>210</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>Search Data
+--
+-RowNumber: Integer
+-UserInput: String 
+--
+GetInput(SearchInput): String
+ApplyFilter(): Void 
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>610</x>
+      <y>630</y>
+      <w>230</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>Upload Data
+--
+-ColumNum: Integer
+-RowNum: Integer
+-CellData: String
+-HTMLTable: String
+-UserDocument: String
+--
+InputVerification(): Bool
+SplitData(UserDocument): String
+ReadData(CellData): String
+DisplayTable(HTMLTable): Void
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1040</x>
+      <y>560</y>
+      <w>230</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>Download Data
+--
+-ColumNum: Integer
+-RowNum: Integer
+-CellData: String
+-HTMLTable: String
+-NewDocument: String
+--
+GetCellData(): String
+PushToCSV(CellData): Void
+Download(String): String
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1040</x>
+      <y>60</y>
+      <w>230</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>Add Column
+--
+-ColumNum: Integer
+-RowNum: Integer
+-ColumName: String
+--
+MakeInputUI(): Void
+GetUserData(String): String
+CreateCollum(CollumName): Void
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>720</x>
+      <y>250</y>
+      <w>100</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>TableUI</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>710</x>
+      <y>270</y>
+      <w>110</w>
+      <h>380</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1
+m2=1
+Uploads to &gt;</panel_attributes>
+    <additional_attributes>10.0;360.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>530</x>
+      <y>260</y>
+      <w>210</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=0..n
+m2=1
+Add to &gt;</panel_attributes>
+    <additional_attributes>10.0;20.0;190.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>530</x>
+      <y>230</y>
+      <w>210</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=0..n
+m2=1
+Remove From &gt;</panel_attributes>
+    <additional_attributes>10.0;20.0;190.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>530</x>
+      <y>270</y>
+      <w>210</w>
+      <h>210</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1
+m2=1
+Searches &gt;</panel_attributes>
+    <additional_attributes>10.0;190.0;190.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>710</x>
+      <y>150</y>
+      <w>80</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=0..n
+m2=1
+Edits &gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;100.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>810</x>
+      <y>230</y>
+      <w>250</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=0..n
+m2=1
+&lt; Adds To</panel_attributes>
+    <additional_attributes>230.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>810</x>
+      <y>260</y>
+      <w>250</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=0..n
+m2=1
+&lt; Remove From</panel_attributes>
+    <additional_attributes>230.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>810</x>
+      <y>270</y>
+      <w>250</w>
+      <h>310</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1
+m2=1
+Download &gt;</panel_attributes>
+    <additional_attributes>230.0;290.0;10.0;10.0</additional_attributes>
+  </element>
+</diagram>

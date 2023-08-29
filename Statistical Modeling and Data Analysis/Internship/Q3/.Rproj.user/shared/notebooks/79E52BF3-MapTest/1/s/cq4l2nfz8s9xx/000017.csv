@@ -1,0 +1,5 @@
+"0","# Get population data for the US"
+"0","us_pop <- get_decennial( vintage = 2020, name = ""DP05_0001E"", key = ""NAME"", region = ""us:1"" )"
+"2","Error in get_decennial(vintage = 2020, name = ""DP05_0001E"", key = ""NAME"",  : 
+  argument ""geography"" is missing, with no default
+"

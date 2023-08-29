@@ -1,0 +1,1 @@
+{"frames":[{"func":"get_decennial(vintage = 2020, name = \"DP05_0001E\", key = \"NAME\", \n    region = \"us:1\")","file":"","line_number":0,"end_line_number":0,"character_number":0,"end_character_number":0}],"message":"Error in get_decennial(vintage = 2020, name = \"DP05_0001E\", key = \"NAME\",  : \n  argument \"geography\" is missing, with no default\n"}
